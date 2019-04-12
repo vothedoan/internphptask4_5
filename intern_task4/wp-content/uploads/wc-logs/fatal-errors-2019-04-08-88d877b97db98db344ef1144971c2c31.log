@@ -1,0 +1,35 @@
+2019-04-08T22:39:15+00:00 CRITICAL Uncaught Error: Call to undefined function wc_cart_totals_tax_html() in C:\xampp\htdocs\intern_task4\wp-content\plugins\woocommerce\templates\checkout\review-order.php:64
+Stack trace:
+#0 C:\xampp\htdocs\intern_task4\wp-content\plugins\woocommerce\includes\wc-core-functions.php(211): include()
+#1 C:\xampp\htdocs\intern_task4\wp-content\plugins\woocommerce\includes\wc-template-functions.php(2095): wc_get_template('checkout/review...', Array)
+#2 C:\xampp\htdocs\intern_task4\wp-includes\class-wp-hook.php(286): woocommerce_order_review('')
+#3 C:\xampp\htdocs\intern_task4\wp-includes\class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#4 C:\xampp\htdocs\intern_task4\wp-includes\plugin.php(465): WP_Hook->do_action(Array)
+#5 C:\xampp\htdocs\intern_task4\wp-content\plugins\woocommerce\templates\checkout\form-checkout.php(57): do_action('woocommerce_che...')
+#6 C:\xampp\htdocs\intern_task4\wp-content\plugins\woocommerce\includes\wc-core-functions.php(211): include('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\intern in C:\xampp\htdocs\intern_task4\wp-content\plugins\woocommerce\templates\checkout\review-order.php on line 64
+
+2019-04-08T22:39:55+00:00 CRITICAL Uncaught Error: Call to undefined function wc_tax_html() in C:\xampp\htdocs\intern_task4\wp-content\plugins\woocommerce\templates\checkout\review-order.php:64
+Stack trace:
+#0 C:\xampp\htdocs\intern_task4\wp-content\plugins\woocommerce\includes\wc-core-functions.php(211): include()
+#1 C:\xampp\htdocs\intern_task4\wp-content\plugins\woocommerce\includes\wc-template-functions.php(2095): wc_get_template('checkout/review...', Array)
+#2 C:\xampp\htdocs\intern_task4\wp-includes\class-wp-hook.php(286): woocommerce_order_review('')
+#3 C:\xampp\htdocs\intern_task4\wp-includes\class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#4 C:\xampp\htdocs\intern_task4\wp-includes\plugin.php(465): WP_Hook->do_action(Array)
+#5 C:\xampp\htdocs\intern_task4\wp-content\plugins\woocommerce\templates\checkout\form-checkout.php(57): do_action('woocommerce_che...')
+#6 C:\xampp\htdocs\intern_task4\wp-content\plugins\woocommerce\includes\wc-core-functions.php(211): include('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\intern_task4\wp-co in C:\xampp\htdocs\intern_task4\wp-content\plugins\woocommerce\templates\checkout\review-order.php on line 64
+
+2019-04-08T22:40:48+00:00 CRITICAL Uncaught Error: Call to undefined function wc_cart_tax_html() in C:\xampp\htdocs\intern_task4\wp-content\plugins\woocommerce\templates\checkout\review-order.php:64
+Stack trace:
+#0 C:\xampp\htdocs\intern_task4\wp-content\plugins\woocommerce\includes\wc-core-functions.php(211): include()
+#1 C:\xampp\htdocs\intern_task4\wp-content\plugins\woocommerce\includes\wc-template-functions.php(2095): wc_get_template('checkout/review...', Array)
+#2 C:\xampp\htdocs\intern_task4\wp-includes\class-wp-hook.php(286): woocommerce_order_review('')
+#3 C:\xampp\htdocs\intern_task4\wp-includes\class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#4 C:\xampp\htdocs\intern_task4\wp-includes\plugin.php(465): WP_Hook->do_action(Array)
+#5 C:\xampp\htdocs\intern_task4\wp-content\plugins\woocommerce\templates\checkout\form-checkout.php(57): do_action('woocommerce_che...')
+#6 C:\xampp\htdocs\intern_task4\wp-content\plugins\woocommerce\includes\wc-core-functions.php(211): include('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\intern_task4\ in C:\xampp\htdocs\intern_task4\wp-content\plugins\woocommerce\templates\checkout\review-order.php on line 64
+
+2019-04-08T22:43:29+00:00 CRITICAL syntax error, unexpected 'else' (T_ELSE), expecting ',' or ';' in C:\xampp\htdocs\intern_task4\wp-content\plugins\woocommerce\templates\checkout\review-order.php on line 64
+

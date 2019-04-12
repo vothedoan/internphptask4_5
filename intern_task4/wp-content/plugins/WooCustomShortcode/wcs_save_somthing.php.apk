@@ -1,0 +1,63 @@
+<div class="wcs__content__product">
+            <table>
+                    <tr>
+                        <th class="wcs__content__product__table--th--id">ID Product</th>
+                        <th class="wcs__content__product__table--th--name">Name</th>
+                        <th class="wcs__content__product__table--th--image">Image</th>
+                        <th class="wcs__content__product__table--th--featuer">Feature</th>
+                    </tr>
+            <?php
+                $array =array(
+                    'post_type' =>'product'
+                );
+                $query = new WP_Query($array);
+                while($query->have_posts())
+                {
+                    $query->the_post();
+                    ?>
+                    <tr>
+                        <td><p class="wcs__content__product__item--id"><?php echo get_the_ID();?></p></td>
+                        <td><p class="wcs__content__product__item--title"><?php echo get_the_title();?></p></td>
+                        <td><img class="wcs__content__product__itemt--img" src="<?php the_post_thumbnail_url();?>" alt=""></td>
+                        <td>
+                      <?php
+                        if(get_post_meta(get_the_ID(),'wcs_id_product',true)=='true')      
+                        {?>
+                             <input class="checkbox__wcs" type="checkbox" data-value="<?php echo get_the_ID()?>" checked>
+                        <?php
+                        }
+                        else{
+                            ?>
+                                <input class="checkbox__wcs" type="checkbox" data-value="<?php echo get_the_ID()?>">
+                            <?php
+                        }
+                             ?>
+                        </td>
+                    </tr>    
+                    <?php
+                }
+                    ?>
+            </table>
+        </div>
+
+/**
+This is function ajax change category product -->START
+*/
+ // jQuery('.wcs__content__product').children().remove();
+ // jQuery.ajax({
+    //     type:'post',
+    //     url: ajaxurl,
+    //     data:{
+    //         'action': 'change_category',
+    //         'category':category,
+    //     },
+    //     success:function(data)
+    //     {
+    //        jQuery('.wcs__content__product').html(data);
+    //        console.log("data reponse::"+data);
+    //     }
+
+    // });
+/**
+This is function ajax change category product -->END
+*/

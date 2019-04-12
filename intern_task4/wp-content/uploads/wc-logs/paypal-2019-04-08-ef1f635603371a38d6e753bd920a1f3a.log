@@ -1,0 +1,185 @@
+2019-04-08T21:56:13+00:00 INFO Generating payment form for order 89. Notify URL: http://localhost/intern_task4/wc-api/WC_Gateway_Paypal/
+2019-04-08T21:56:13+00:00 INFO PayPal Request Args for order 89: Array
+(
+    [cmd] => _cart
+    [business] => v.t.doan1908-facilitator@gmail.com
+    [no_note] => 1
+    [currency_code] => USD
+    [charset] => utf-8
+    [rm] => 1
+    [upload] => 1
+    [return] => http://localhost/intern_task4/checkout/order-received/89/?key=wc_order_4LNV3AY7Zd0In&utm_nooverride=1
+    [cancel_return] => http://localhost/intern_task4/cart/?cancel_order=true&order=wc_order_4LNV3AY7Zd0In&order_id=89&redirect&_wpnonce=0ce1b5ecbf
+    [page_style] => 
+    [image_url] => 
+    [paymentaction] => sale
+    [invoice] => WC-89
+    [custom] => {"order_id":89,"order_key":"wc_order_4LNV3AY7Zd0In"}
+    [notify_url] => http://localhost/intern_task4/wc-api/WC_Gateway_Paypal/
+    [first_name] => ***
+    [last_name] => ***
+    [address1] => ***
+    [address2] => ***
+    [city] => ***
+    [state] => ***
+    [zip] => ***
+    [country] => ***
+    [email] => ***@***
+    [night_phone_b] => ***
+    [address_override] => 1
+    [no_shipping] => 0
+    [item_name_1] => desktop 1 (color: Silver) x 1
+    [quantity_1] => 1
+    [amount_1] => 800
+    [item_number_1] => 89
+    [bn] => WooThemes_Cart
+)
+
+2019-04-08T21:56:56+00:00 INFO Generating payment form for order 90. Notify URL: http://localhost/intern_task4/wc-api/WC_Gateway_Paypal/
+2019-04-08T21:56:56+00:00 INFO PayPal Request Args for order 90: Array
+(
+    [cmd] => _cart
+    [business] => v.t.doan1908-facilitator@gmail.com
+    [no_note] => 1
+    [currency_code] => USD
+    [charset] => utf-8
+    [rm] => 1
+    [upload] => 1
+    [return] => http://localhost/intern_task4/checkout/order-received/90/?key=wc_order_DpyJj3hlbmbhe&utm_nooverride=1
+    [cancel_return] => http://localhost/intern_task4/cart/?cancel_order=true&order=wc_order_DpyJj3hlbmbhe&order_id=90&redirect&_wpnonce=479af43268
+    [page_style] => 
+    [image_url] => 
+    [paymentaction] => sale
+    [invoice] => WC-90
+    [custom] => {"order_id":90,"order_key":"wc_order_DpyJj3hlbmbhe"}
+    [notify_url] => http://localhost/intern_task4/wc-api/WC_Gateway_Paypal/
+    [first_name] => ***
+    [last_name] => ***
+    [address1] => ***
+    [address2] => ***
+    [city] => ***
+    [state] => ***
+    [zip] => ***
+    [country] => ***
+    [email] => ***@***
+    [night_phone_b] => ***
+    [address_override] => 1
+    [no_shipping] => 0
+    [item_name_1] => desktop 2 (color: Silver) x 1, desktop 1 (color: Black) x 1
+    [quantity_1] => 1
+    [amount_1] => 1600
+    [item_number_1] => 90
+    [bn] => WooThemes_Cart
+)
+
+2019-04-08T22:02:01+00:00 INFO Generating payment form for order 89. Notify URL: http://localhost/intern_task4/wc-api/WC_Gateway_Paypal/
+2019-04-08T22:02:01+00:00 INFO PayPal Request Args for order 89: Array
+(
+    [cmd] => _cart
+    [business] => asc23297-facilitator@gmail.com
+    [no_note] => 1
+    [currency_code] => USD
+    [charset] => utf-8
+    [rm] => 1
+    [upload] => 1
+    [return] => http://localhost/intern_task4/checkout/order-received/89/?key=wc_order_4LNV3AY7Zd0In&utm_nooverride=1
+    [cancel_return] => http://localhost/intern_task4/cart/?cancel_order=true&order=wc_order_4LNV3AY7Zd0In&order_id=89&redirect&_wpnonce=0ce1b5ecbf
+    [page_style] => 
+    [image_url] => 
+    [paymentaction] => sale
+    [invoice] => WC-89
+    [custom] => {"order_id":89,"order_key":"wc_order_4LNV3AY7Zd0In"}
+    [notify_url] => http://localhost/intern_task4/wc-api/WC_Gateway_Paypal/
+    [first_name] => ***
+    [last_name] => ***
+    [address1] => ***
+    [address2] => ***
+    [city] => ***
+    [state] => ***
+    [zip] => ***
+    [country] => ***
+    [email] => ***@***
+    [night_phone_b] => ***
+    [address_override] => 1
+    [no_shipping] => 0
+    [item_name_1] => desktop 1 (color: Silver) x 1
+    [quantity_1] => 1
+    [amount_1] => 800
+    [item_number_1] => 89
+    [bn] => WooThemes_Cart
+)
+
+2019-04-08T22:06:57+00:00 INFO Generating payment form for order 91. Notify URL: http://localhost/intern_task4/wc-api/WC_Gateway_Paypal/
+2019-04-08T22:06:57+00:00 INFO PayPal Request Args for order 91: Array
+(
+    [cmd] => _cart
+    [business] => asc23297-facilitator@gmail.com
+    [no_note] => 1
+    [currency_code] => USD
+    [charset] => utf-8
+    [rm] => 1
+    [upload] => 1
+    [return] => http://localhost/intern_task4/checkout/order-received/91/?key=wc_order_Y7UT4sMdOge93&utm_nooverride=1
+    [cancel_return] => http://localhost/intern_task4/cart/?cancel_order=true&order=wc_order_Y7UT4sMdOge93&order_id=91&redirect&_wpnonce=0ce1b5ecbf
+    [page_style] => 
+    [image_url] => 
+    [paymentaction] => sale
+    [invoice] => WC-91
+    [custom] => {"order_id":91,"order_key":"wc_order_Y7UT4sMdOge93"}
+    [notify_url] => http://localhost/intern_task4/wc-api/WC_Gateway_Paypal/
+    [first_name] => ***
+    [last_name] => ***
+    [address1] => ***
+    [address2] => ***
+    [city] => ***
+    [state] => ***
+    [zip] => ***
+    [country] => ***
+    [email] => ***@***
+    [night_phone_b] => ***
+    [address_override] => 1
+    [no_shipping] => 0
+    [item_name_1] => desktop 2 (color: Silver) x 1
+    [quantity_1] => 1
+    [amount_1] => 800
+    [item_number_1] => 91
+    [bn] => WooThemes_Cart
+)
+
+2019-04-08T22:10:33+00:00 INFO Generating payment form for order 92. Notify URL: http://localhost/intern_task4/wc-api/WC_Gateway_Paypal/
+2019-04-08T22:10:33+00:00 INFO PayPal Request Args for order 92: Array
+(
+    [cmd] => _cart
+    [business] => asc23297-facilitator@gmail.com
+    [no_note] => 1
+    [currency_code] => USD
+    [charset] => utf-8
+    [rm] => 1
+    [upload] => 1
+    [return] => http://localhost/intern_task4/checkout/order-received/92/?key=wc_order_WCQ0N4Z5fsyE3&utm_nooverride=1
+    [cancel_return] => http://localhost/intern_task4/cart/?cancel_order=true&order=wc_order_WCQ0N4Z5fsyE3&order_id=92&redirect&_wpnonce=0ce1b5ecbf
+    [page_style] => 
+    [image_url] => 
+    [paymentaction] => sale
+    [invoice] => WC-92
+    [custom] => {"order_id":92,"order_key":"wc_order_WCQ0N4Z5fsyE3"}
+    [notify_url] => http://localhost/intern_task4/wc-api/WC_Gateway_Paypal/
+    [first_name] => ***
+    [last_name] => ***
+    [address1] => ***
+    [address2] => ***
+    [city] => ***
+    [state] => ***
+    [zip] => ***
+    [country] => ***
+    [email] => ***@***
+    [night_phone_b] => ***
+    [address_override] => 1
+    [no_shipping] => 0
+    [item_name_1] => desktop 2 (color: Silver) x 2
+    [quantity_1] => 1
+    [amount_1] => 1600
+    [item_number_1] => 92
+    [bn] => WooThemes_Cart
+)
+

@@ -1,0 +1,197 @@
+2019-04-09T00:29:28+00:00 CRITICAL Uncaught Error: Call to undefined method WC_Cart::get_rate_tax() in C:\xampp\htdocs\intern_task4\wp-content\plugins\woocommerce\templates\checkout\review-order.php:97
+Stack trace:
+#0 C:\xampp\htdocs\intern_task4\wp-content\plugins\woocommerce\includes\wc-core-functions.php(211): include()
+#1 C:\xampp\htdocs\intern_task4\wp-content\plugins\woocommerce\includes\wc-template-functions.php(2095): wc_get_template('checkout/review...', Array)
+#2 C:\xampp\htdocs\intern_task4\wp-includes\class-wp-hook.php(286): woocommerce_order_review('')
+#3 C:\xampp\htdocs\intern_task4\wp-includes\class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#4 C:\xampp\htdocs\intern_task4\wp-includes\plugin.php(465): WP_Hook->do_action(Array)
+#5 C:\xampp\htdocs\intern_task4\wp-content\plugins\woocommerce\templates\checkout\form-checkout.php(57): do_action('woocommerce_che...')
+#6 C:\xampp\htdocs\intern_task4\wp-content\plugins\woocommerce\includes\wc-core-functions.php(211): include('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\intern_tas in C:\xampp\htdocs\intern_task4\wp-content\plugins\woocommerce\templates\checkout\review-order.php on line 97
+
+2019-04-09T00:33:13+00:00 CRITICAL syntax error, unexpected ';', expecting ')' in C:\xampp\htdocs\intern_task4\wp-content\plugins\woocommerce\templates\checkout\review-order.php on line 99
+
+2019-04-09T07:22:38+00:00 CRITICAL Uncaught Error: Call to undefined function exits() in C:\xampp\htdocs\intern_task4\wp-content\themes\storefront-child\functions.php:17
+Stack trace:
+#0 C:\xampp\htdocs\intern_task4\wp-settings.php(479): include()
+#1 C:\xampp\htdocs\intern_task4\wp-config.php(90): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\intern_task4\wp-load.php(37): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\intern_task4\wp-admin\admin-ajax.php(22): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+  thrown in C:\xampp\htdocs\intern_task4\wp-content\themes\storefront-child\functions.php on line 17
+
+2019-04-09T07:24:39+00:00 CRITICAL Uncaught Error: Call to undefined function exits() in C:\xampp\htdocs\intern_task4\wp-content\themes\storefront-child\functions.php:17
+Stack trace:
+#0 C:\xampp\htdocs\intern_task4\wp-settings.php(479): include()
+#1 C:\xampp\htdocs\intern_task4\wp-config.php(90): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\intern_task4\wp-load.php(37): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\intern_task4\wp-admin\admin-ajax.php(22): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+  thrown in C:\xampp\htdocs\intern_task4\wp-content\themes\storefront-child\functions.php on line 17
+
+2019-04-09T07:26:40+00:00 CRITICAL Uncaught Error: Call to undefined function exits() in C:\xampp\htdocs\intern_task4\wp-content\themes\storefront-child\functions.php:17
+Stack trace:
+#0 C:\xampp\htdocs\intern_task4\wp-settings.php(479): include()
+#1 C:\xampp\htdocs\intern_task4\wp-config.php(90): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\intern_task4\wp-load.php(37): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\intern_task4\wp-admin\admin-ajax.php(22): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+  thrown in C:\xampp\htdocs\intern_task4\wp-content\themes\storefront-child\functions.php on line 17
+
+2019-04-09T07:27:12+00:00 CRITICAL Uncaught Error: Call to undefined function exits() in C:\xampp\htdocs\intern_task4\wp-content\themes\storefront-child\functions.php:17
+Stack trace:
+#0 C:\xampp\htdocs\intern_task4\wp-settings.php(479): include()
+#1 C:\xampp\htdocs\intern_task4\wp-config.php(90): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\intern_task4\wp-load.php(37): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\intern_task4\wp-blog-header.php(13): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\intern_task4\index.php(17): require('C:\\xampp\\htdocs...')
+#5 {main}
+  thrown in C:\xampp\htdocs\intern_task4\wp-content\themes\storefront-child\functions.php on line 17
+
+2019-04-09T07:27:25+00:00 CRITICAL Uncaught Error: Call to undefined function exits() in C:\xampp\htdocs\intern_task4\wp-content\themes\storefront-child\functions.php:17
+Stack trace:
+#0 C:\xampp\htdocs\intern_task4\wp-settings.php(479): include()
+#1 C:\xampp\htdocs\intern_task4\wp-config.php(90): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\intern_task4\wp-load.php(37): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\intern_task4\wp-blog-header.php(13): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\intern_task4\index.php(17): require('C:\\xampp\\htdocs...')
+#5 {main}
+  thrown in C:\xampp\htdocs\intern_task4\wp-content\themes\storefront-child\functions.php on line 17
+
+2019-04-09T07:27:31+00:00 CRITICAL Uncaught Error: Call to undefined function exits() in C:\xampp\htdocs\intern_task4\wp-content\themes\storefront-child\functions.php:17
+Stack trace:
+#0 C:\xampp\htdocs\intern_task4\wp-settings.php(479): include()
+#1 C:\xampp\htdocs\intern_task4\wp-config.php(90): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\intern_task4\wp-load.php(37): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\intern_task4\wp-blog-header.php(13): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\intern_task4\index.php(17): require('C:\\xampp\\htdocs...')
+#5 {main}
+  thrown in C:\xampp\htdocs\intern_task4\wp-content\themes\storefront-child\functions.php on line 17
+
+2019-04-09T07:31:57+00:00 CRITICAL Uncaught Error: Call to undefined function wp_price() in C:\xampp\htdocs\intern_task4\wp-content\plugins\woocommerce\templates\checkout\review-order.php:97
+Stack trace:
+#0 C:\xampp\htdocs\intern_task4\wp-content\plugins\woocommerce\includes\wc-core-functions.php(211): include()
+#1 C:\xampp\htdocs\intern_task4\wp-content\plugins\woocommerce\includes\wc-template-functions.php(2095): wc_get_template('checkout/review...', Array)
+#2 C:\xampp\htdocs\intern_task4\wp-includes\class-wp-hook.php(286): woocommerce_order_review('')
+#3 C:\xampp\htdocs\intern_task4\wp-includes\class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#4 C:\xampp\htdocs\intern_task4\wp-includes\plugin.php(465): WP_Hook->do_action(Array)
+#5 C:\xampp\htdocs\intern_task4\wp-content\plugins\woocommerce\templates\checkout\form-checkout.php(57): do_action('woocommerce_che...')
+#6 C:\xampp\htdocs\intern_task4\wp-content\plugins\woocommerce\includes\wc-core-functions.php(211): include('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\intern_task4\wp-conte in C:\xampp\htdocs\intern_task4\wp-content\plugins\woocommerce\templates\checkout\review-order.php on line 97
+
+2019-04-09T07:33:16+00:00 CRITICAL Uncaught Error: Call to undefined function WP_Tax() in C:\xampp\htdocs\intern_task4\wp-content\plugins\woocommerce\templates\checkout\review-order.php:97
+Stack trace:
+#0 C:\xampp\htdocs\intern_task4\wp-content\plugins\woocommerce\includes\wc-core-functions.php(211): include()
+#1 C:\xampp\htdocs\intern_task4\wp-content\plugins\woocommerce\includes\wc-template-functions.php(2095): wc_get_template('checkout/review...', Array)
+#2 C:\xampp\htdocs\intern_task4\wp-includes\class-wp-hook.php(286): woocommerce_order_review('')
+#3 C:\xampp\htdocs\intern_task4\wp-includes\class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#4 C:\xampp\htdocs\intern_task4\wp-includes\plugin.php(465): WP_Hook->do_action(Array)
+#5 C:\xampp\htdocs\intern_task4\wp-content\plugins\woocommerce\templates\checkout\form-checkout.php(57): do_action('woocommerce_che...')
+#6 C:\xampp\htdocs\intern_task4\wp-content\plugins\woocommerce\includes\wc-core-functions.php(211): include('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\intern_task4\wp-content in C:\xampp\htdocs\intern_task4\wp-content\plugins\woocommerce\templates\checkout\review-order.php on line 97
+
+2019-04-09T08:04:19+00:00 CRITICAL syntax error, unexpected '}', expecting ',' or ';' in C:\xampp\htdocs\intern_task4\wp-content\themes\storefront-child\functions.php on line 20
+
+2019-04-09T08:04:32+00:00 CRITICAL Uncaught Error: Call to undefined function WC_Cart() in C:\xampp\htdocs\intern_task4\wp-content\themes\storefront-child\functions.php:18
+Stack trace:
+#0 C:\xampp\htdocs\intern_task4\wp-includes\class-wp-hook.php(286): func_child_theme_cart_checkout('')
+#1 C:\xampp\htdocs\intern_task4\wp-includes\class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\intern_task4\wp-includes\plugin.php(465): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\intern_task4\wp-settings.php(505): do_action('init')
+#4 C:\xampp\htdocs\intern_task4\wp-config.php(90): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\intern_task4\wp-load.php(37): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\intern_task4\wp-cron.php(39): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown in C:\xampp\htdocs\intern_task4\wp-content\themes\storefront-child\functions.php on line 18
+
+2019-04-09T08:04:32+00:00 CRITICAL Uncaught Error: Call to undefined function WC_Cart() in C:\xampp\htdocs\intern_task4\wp-content\themes\storefront-child\functions.php:18
+Stack trace:
+#0 C:\xampp\htdocs\intern_task4\wp-includes\class-wp-hook.php(286): func_child_theme_cart_checkout('')
+#1 C:\xampp\htdocs\intern_task4\wp-includes\class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\intern_task4\wp-includes\plugin.php(465): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\intern_task4\wp-settings.php(505): do_action('init')
+#4 C:\xampp\htdocs\intern_task4\wp-config.php(90): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\intern_task4\wp-load.php(37): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\intern_task4\wp-blog-header.php(13): require_once('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\intern_task4\index.php(17): require('C:\\xampp\\htdocs...')
+#8 {main}
+  thrown in C:\xampp\htdocs\intern_task4\wp-content\themes\storefront-child\functions.php on line 18
+
+2019-04-09T08:04:56+00:00 CRITICAL Uncaught Error: Call to undefined function WC_Cart_get_taxes() in C:\xampp\htdocs\intern_task4\wp-content\themes\storefront-child\functions.php:18
+Stack trace:
+#0 C:\xampp\htdocs\intern_task4\wp-includes\class-wp-hook.php(286): func_child_theme_cart_checkout('')
+#1 C:\xampp\htdocs\intern_task4\wp-includes\class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\intern_task4\wp-includes\plugin.php(465): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\intern_task4\wp-settings.php(505): do_action('init')
+#4 C:\xampp\htdocs\intern_task4\wp-config.php(90): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\intern_task4\wp-load.php(37): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\intern_task4\wp-blog-header.php(13): require_once('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\intern_task4\index.php(17): require('C:\\xampp\\htdocs...')
+#8 {main}
+  thrown in C:\xampp\htdocs\intern_task4\wp-content\themes\storefront-child\functions.php on line 18
+
+2019-04-09T08:05:46+00:00 CRITICAL Uncaught Error: Call to a member function get_taxes() on null in C:\xampp\htdocs\intern_task4\wp-content\themes\storefront-child\functions.php:18
+Stack trace:
+#0 C:\xampp\htdocs\intern_task4\wp-includes\class-wp-hook.php(286): func_child_theme_cart_checkout('')
+#1 C:\xampp\htdocs\intern_task4\wp-includes\class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\intern_task4\wp-includes\plugin.php(465): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\intern_task4\wp-settings.php(505): do_action('init')
+#4 C:\xampp\htdocs\intern_task4\wp-config.php(90): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\intern_task4\wp-load.php(37): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\intern_task4\wp-cron.php(39): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown in C:\xampp\htdocs\intern_task4\wp-content\themes\storefront-child\functions.php on line 18
+
+2019-04-09T08:05:46+00:00 CRITICAL Uncaught Error: Call to a member function get_taxes() on null in C:\xampp\htdocs\intern_task4\wp-content\themes\storefront-child\functions.php:18
+Stack trace:
+#0 C:\xampp\htdocs\intern_task4\wp-includes\class-wp-hook.php(286): func_child_theme_cart_checkout('')
+#1 C:\xampp\htdocs\intern_task4\wp-includes\class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\intern_task4\wp-includes\plugin.php(465): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\intern_task4\wp-settings.php(505): do_action('init')
+#4 C:\xampp\htdocs\intern_task4\wp-config.php(90): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\intern_task4\wp-load.php(37): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\intern_task4\wp-blog-header.php(13): require_once('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\intern_task4\index.php(17): require('C:\\xampp\\htdocs...')
+#8 {main}
+  thrown in C:\xampp\htdocs\intern_task4\wp-content\themes\storefront-child\functions.php on line 18
+
+2019-04-09T08:08:05+00:00 CRITICAL Uncaught Error: Call to undefined function WC_Cart() in C:\xampp\htdocs\intern_task4\wp-content\themes\storefront-child\functions.php:18
+Stack trace:
+#0 C:\xampp\htdocs\intern_task4\wp-includes\class-wp-hook.php(286): func_child_theme_cart_checkout('')
+#1 C:\xampp\htdocs\intern_task4\wp-includes\class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\intern_task4\wp-includes\plugin.php(465): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\intern_task4\wp-settings.php(505): do_action('init')
+#4 C:\xampp\htdocs\intern_task4\wp-config.php(90): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\intern_task4\wp-load.php(37): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\intern_task4\wp-cron.php(39): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown in C:\xampp\htdocs\intern_task4\wp-content\themes\storefront-child\functions.php on line 18
+
+2019-04-09T08:08:05+00:00 CRITICAL Uncaught Error: Call to undefined function WC_Cart() in C:\xampp\htdocs\intern_task4\wp-content\themes\storefront-child\functions.php:18
+Stack trace:
+#0 C:\xampp\htdocs\intern_task4\wp-includes\class-wp-hook.php(286): func_child_theme_cart_checkout('')
+#1 C:\xampp\htdocs\intern_task4\wp-includes\class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\intern_task4\wp-includes\plugin.php(465): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\intern_task4\wp-settings.php(505): do_action('init')
+#4 C:\xampp\htdocs\intern_task4\wp-config.php(90): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\intern_task4\wp-load.php(37): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\intern_task4\wp-blog-header.php(13): require_once('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\intern_task4\index.php(17): require('C:\\xampp\\htdocs...')
+#8 {main}
+  thrown in C:\xampp\htdocs\intern_task4\wp-content\themes\storefront-child\functions.php on line 18
+
+2019-04-09T08:08:32+00:00 CRITICAL Uncaught Error: Call to undefined function get_taxes() in C:\xampp\htdocs\intern_task4\wp-content\themes\storefront-child\functions.php:18
+Stack trace:
+#0 C:\xampp\htdocs\intern_task4\wp-includes\class-wp-hook.php(286): func_child_theme_cart_checkout('')
+#1 C:\xampp\htdocs\intern_task4\wp-includes\class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\intern_task4\wp-includes\plugin.php(465): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\intern_task4\wp-settings.php(505): do_action('init')
+#4 C:\xampp\htdocs\intern_task4\wp-config.php(90): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\intern_task4\wp-load.php(37): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\intern_task4\wp-blog-header.php(13): require_once('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\intern_task4\index.php(17): require('C:\\xampp\\htdocs...')
+#8 {main}
+  thrown in C:\xampp\htdocs\intern_task4\wp-content\themes\storefront-child\functions.php on line 18
+
+2019-04-09T08:17:48+00:00 CRITICAL syntax error, unexpected end of file in C:\xampp\htdocs\intern_task4\wp-content\themes\storefront-child\functions.php on line 29
+

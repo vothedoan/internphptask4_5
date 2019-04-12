@@ -1,0 +1,1168 @@
+04-08-2019 @ 18:08:17 - WC_Gateway_PPEC_Client::_request: remote request to https://api-3t.sandbox.paypal.com/nvp with params: Array
+(
+    [LOGOIMG] => 
+    [HDRIMG] => 
+    [PAGESTYLE] => 
+    [BRANDNAME] => internphp
+    [RETURNURL] => http://localhost/intern_task4/checkout/?woo-paypal-return=true
+    [CANCELURL] => http://localhost/intern_task4/cart/?woo-paypal-cancel=true
+    [LANDINGPAGE] => Login
+    [SOLUTIONTYPE] => Sole
+    [PAYMENTREQUEST_0_PAYMENTACTION] => sale
+    [PAYMENTREQUEST_0_INSURANCEAMT] => 0
+    [PAYMENTREQUEST_0_HANDLINGAMT] => 0
+    [PAYMENTREQUEST_0_CUSTOM] => 
+    [PAYMENTREQUEST_0_INVNUM] => 
+    [PAYMENTREQUEST_0_CURRENCYCODE] => USD
+    [PAYMENTREQUEST_0_AMT] => 800
+    [PAYMENTREQUEST_0_ITEMAMT] => 800
+    [PAYMENTREQUEST_0_SHIPPINGAMT] => 0
+    [PAYMENTREQUEST_0_TAXAMT] => 0
+    [PAYMENTREQUEST_0_SHIPDISCAMT] => 0
+    [NOSHIPPING] => 0
+    [EMAIL] => v.t.doan1908@gmail.com
+    [PAYMENTREQUEST_0_SHIPTONAME] => doan vo
+    [PAYMENTREQUEST_0_SHIPTOSTREET] => 45 Đinh Công Tráng , Thuận Phước ,Hải Châu, Đà Nẵng
+    [PAYMENTREQUEST_0_SHIPTOSTREET2] => 
+    [PAYMENTREQUEST_0_SHIPTOCITY] => intern
+    [PAYMENTREQUEST_0_SHIPTOSTATE] => 
+    [PAYMENTREQUEST_0_SHIPTOZIP] => 550000
+    [PAYMENTREQUEST_0_SHIPTOCOUNTRYCODE] => VN
+    [PAYMENTREQUEST_0_SHIPTOPHONENUM] => 0965640197
+    [L_PAYMENTREQUEST_0_NAME0] => laptop 1
+    [L_PAYMENTREQUEST_0_DESC0] => sản phẩm tốt
+    [L_PAYMENTREQUEST_0_QTY0] => 1
+    [L_PAYMENTREQUEST_0_AMT0] => 800
+    [METHOD] => SetExpressCheckout
+    [VERSION] => 120.0
+    [USER] => 
+    [PWD] => 
+    [SIGNATURE] => 
+)
+
+04-08-2019 @ 18:08:18 - WC_Gateway_PPEC_Client::_process_response: acknowleged response body: Array
+(
+    [TIMESTAMP] => 2019-04-08T03:06:14Z
+    [CORRELATIONID] => 64f3725d596d7
+    [ACK] => Failure
+    [VERSION] => 120.0
+    [BUILD] => 52346509
+    [L_ERRORCODE0] => 10002
+    [L_SHORTMESSAGE0] => Authentication/Authorization Failed
+    [L_LONGMESSAGE0] => You do not have permissions to make this API call
+    [L_SEVERITYCODE0] => Error
+)
+
+04-08-2019 @ 18:57:22 - WC_Gateway_PPEC_Client::_request: remote request to https://api-3t.sandbox.paypal.com/nvp with params: Array
+(
+    [METHOD] => GetPalDetails
+    [VERSION] => 120.0
+    [USER] => 
+    [PWD] => 
+    [SIGNATURE] => 
+)
+
+04-08-2019 @ 18:57:24 - WC_Gateway_PPEC_Client::_process_response: acknowleged response body: Array
+(
+    [TIMESTAMP] => 2019-04-08T03:55:20Z
+    [CORRELATIONID] => 942743ff266d8
+    [ACK] => Failure
+    [VERSION] => 120.0
+    [BUILD] => 46457558
+    [L_ERRORCODE0] => 10002
+    [L_SHORTMESSAGE0] => Authentication/Authorization Failed
+    [L_LONGMESSAGE0] => You do not have permissions to make this API call
+    [L_SEVERITYCODE0] => Error
+)
+
+04-08-2019 @ 18:57:28 - WC_Gateway_PPEC_Client::_request: remote request to https://api-3t.sandbox.paypal.com/nvp with params: Array
+(
+    [METHOD] => GetPalDetails
+    [VERSION] => 120.0
+    [USER] => 
+    [PWD] => 
+    [SIGNATURE] => 
+)
+
+04-08-2019 @ 18:57:29 - WC_Gateway_PPEC_Client::_process_response: acknowleged response body: Array
+(
+    [TIMESTAMP] => 2019-04-08T03:55:25Z
+    [CORRELATIONID] => 5dd1ee938fa07
+    [ACK] => Failure
+    [VERSION] => 120.0
+    [BUILD] => 46457558
+    [L_ERRORCODE0] => 10002
+    [L_SHORTMESSAGE0] => Authentication/Authorization Failed
+    [L_LONGMESSAGE0] => You do not have permissions to make this API call
+    [L_SEVERITYCODE0] => Error
+)
+
+04-08-2019 @ 19:01:08 - WC_Gateway_PPEC_Client::_request: remote request to https://api-3t.sandbox.paypal.com/nvp with params: Array
+(
+    [METHOD] => GetPalDetails
+    [VERSION] => 120.0
+    [USER] => 
+    [PWD] => 
+    [SIGNATURE] => 
+)
+
+04-08-2019 @ 19:01:09 - WC_Gateway_PPEC_Client::_process_response: acknowleged response body: Array
+(
+    [TIMESTAMP] => 2019-04-08T03:59:05Z
+    [CORRELATIONID] => eb54d0c0dff6a
+    [ACK] => Failure
+    [VERSION] => 120.0
+    [BUILD] => 46457558
+    [L_ERRORCODE0] => 10002
+    [L_SHORTMESSAGE0] => Authentication/Authorization Failed
+    [L_LONGMESSAGE0] => You do not have permissions to make this API call
+    [L_SEVERITYCODE0] => Error
+)
+
+04-08-2019 @ 19:02:30 - WC_Gateway_PPEC_Client::_request: remote request to https://api-3t.sandbox.paypal.com/nvp with params: Array
+(
+    [METHOD] => GetPalDetails
+    [VERSION] => 120.0
+    [USER] => 
+    [PWD] => 
+    [SIGNATURE] => 
+)
+
+04-08-2019 @ 19:02:32 - WC_Gateway_PPEC_Client::_process_response: acknowleged response body: Array
+(
+    [TIMESTAMP] => 2019-04-08T04:00:28Z
+    [CORRELATIONID] => 3091e55526fb8
+    [ACK] => Failure
+    [VERSION] => 120.0
+    [BUILD] => 46457558
+    [L_ERRORCODE0] => 10002
+    [L_SHORTMESSAGE0] => Authentication/Authorization Failed
+    [L_LONGMESSAGE0] => You do not have permissions to make this API call
+    [L_SEVERITYCODE0] => Error
+)
+
+04-08-2019 @ 19:02:57 - WC_Gateway_PPEC_Client::_request: remote request to https://api-3t.sandbox.paypal.com/nvp with params: Array
+(
+    [METHOD] => GetPalDetails
+    [VERSION] => 120.0
+    [USER] => 
+    [PWD] => 
+    [SIGNATURE] => 
+)
+
+04-08-2019 @ 19:02:58 - WC_Gateway_PPEC_Client::_process_response: acknowleged response body: Array
+(
+    [TIMESTAMP] => 2019-04-08T04:00:54Z
+    [CORRELATIONID] => b2f342e2b056b
+    [ACK] => Failure
+    [VERSION] => 120.0
+    [BUILD] => 46457558
+    [L_ERRORCODE0] => 10002
+    [L_SHORTMESSAGE0] => Authentication/Authorization Failed
+    [L_LONGMESSAGE0] => You do not have permissions to make this API call
+    [L_SEVERITYCODE0] => Error
+)
+
+04-08-2019 @ 19:03:02 - WC_Gateway_PPEC_Client::_request: remote request to https://api-3t.sandbox.paypal.com/nvp with params: Array
+(
+    [METHOD] => GetPalDetails
+    [VERSION] => 120.0
+    [USER] => 
+    [PWD] => 
+    [SIGNATURE] => 
+)
+
+04-08-2019 @ 19:03:03 - WC_Gateway_PPEC_Client::_process_response: acknowleged response body: Array
+(
+    [TIMESTAMP] => 2019-04-08T04:00:59Z
+    [CORRELATIONID] => c1ff15fde0fbf
+    [ACK] => Failure
+    [VERSION] => 120.0
+    [BUILD] => 46457558
+    [L_ERRORCODE0] => 10002
+    [L_SHORTMESSAGE0] => Authentication/Authorization Failed
+    [L_LONGMESSAGE0] => You do not have permissions to make this API call
+    [L_SEVERITYCODE0] => Error
+)
+
+04-08-2019 @ 19:03:04 - WC_Gateway_PPEC_Client::_request: remote request to https://api-3t.sandbox.paypal.com/nvp with params: Array
+(
+    [LOGOIMG] => 
+    [HDRIMG] => 
+    [PAGESTYLE] => 
+    [BRANDNAME] => internphp
+    [RETURNURL] => http://localhost/intern_task4/checkout/?woo-paypal-return=true
+    [CANCELURL] => http://localhost/intern_task4/cart/?woo-paypal-cancel=true
+    [LANDINGPAGE] => Login
+    [SOLUTIONTYPE] => Sole
+    [PAYMENTREQUEST_0_PAYMENTACTION] => sale
+    [PAYMENTREQUEST_0_INSURANCEAMT] => 0
+    [PAYMENTREQUEST_0_HANDLINGAMT] => 0
+    [PAYMENTREQUEST_0_CUSTOM] => 
+    [PAYMENTREQUEST_0_INVNUM] => 
+    [PAYMENTREQUEST_0_CURRENCYCODE] => USD
+    [PAYMENTREQUEST_0_AMT] => 1600
+    [PAYMENTREQUEST_0_ITEMAMT] => 1600
+    [PAYMENTREQUEST_0_SHIPPINGAMT] => 0
+    [PAYMENTREQUEST_0_TAXAMT] => 0
+    [PAYMENTREQUEST_0_SHIPDISCAMT] => 0
+    [NOSHIPPING] => 0
+    [EMAIL] => nam.sandbox@gmail.com
+    [PAYMENTREQUEST_0_SHIPTONAME] => doan vo
+    [PAYMENTREQUEST_0_SHIPTOSTREET] => 45 Đinh Công Tráng , Thuận Phước ,Hải Châu, Đà Nẵng
+    [PAYMENTREQUEST_0_SHIPTOSTREET2] => 
+    [PAYMENTREQUEST_0_SHIPTOCITY] => intern
+    [PAYMENTREQUEST_0_SHIPTOSTATE] => 
+    [PAYMENTREQUEST_0_SHIPTOZIP] => 550000
+    [PAYMENTREQUEST_0_SHIPTOCOUNTRYCODE] => VN
+    [PAYMENTREQUEST_0_SHIPTOPHONENUM] => 0976751312
+    [L_PAYMENTREQUEST_0_NAME0] => desktop 2
+    [L_PAYMENTREQUEST_0_DESC0] => sản phẩm tốt cho mọi công việc
+    [L_PAYMENTREQUEST_0_QTY0] => 1
+    [L_PAYMENTREQUEST_0_AMT0] => 800
+    [L_PAYMENTREQUEST_0_NAME1] => desktop 1
+    [L_PAYMENTREQUEST_0_DESC1] => sản phẩm tốt cho mọi công việc
+    [L_PAYMENTREQUEST_0_QTY1] => 1
+    [L_PAYMENTREQUEST_0_AMT1] => 800
+    [METHOD] => SetExpressCheckout
+    [VERSION] => 120.0
+    [USER] => 
+    [PWD] => 
+    [SIGNATURE] => 
+)
+
+04-08-2019 @ 19:03:05 - WC_Gateway_PPEC_Client::_process_response: acknowleged response body: Array
+(
+    [TIMESTAMP] => 2019-04-08T04:01:01Z
+    [CORRELATIONID] => 90faf79b73051
+    [ACK] => Failure
+    [VERSION] => 120.0
+    [BUILD] => 52346509
+    [L_ERRORCODE0] => 10002
+    [L_SHORTMESSAGE0] => Authentication/Authorization Failed
+    [L_LONGMESSAGE0] => You do not have permissions to make this API call
+    [L_SEVERITYCODE0] => Error
+)
+
+04-08-2019 @ 19:03:05 - WC_Gateway_PPEC_Client::_request: remote request to https://api-3t.sandbox.paypal.com/nvp with params: Array
+(
+    [METHOD] => GetPalDetails
+    [VERSION] => 120.0
+    [USER] => 
+    [PWD] => 
+    [SIGNATURE] => 
+)
+
+04-08-2019 @ 19:03:06 - WC_Gateway_PPEC_Client::_process_response: acknowleged response body: Array
+(
+    [TIMESTAMP] => 2019-04-08T04:01:02Z
+    [CORRELATIONID] => 37358ec487920
+    [ACK] => Failure
+    [VERSION] => 120.0
+    [BUILD] => 46457558
+    [L_ERRORCODE0] => 10002
+    [L_SHORTMESSAGE0] => Authentication/Authorization Failed
+    [L_LONGMESSAGE0] => You do not have permissions to make this API call
+    [L_SEVERITYCODE0] => Error
+)
+
+04-08-2019 @ 19:03:07 - WC_Gateway_PPEC_Client::_request: remote request to https://api-3t.sandbox.paypal.com/nvp with params: Array
+(
+    [METHOD] => GetPalDetails
+    [VERSION] => 120.0
+    [USER] => 
+    [PWD] => 
+    [SIGNATURE] => 
+)
+
+04-08-2019 @ 19:03:08 - WC_Gateway_PPEC_Client::_process_response: acknowleged response body: Array
+(
+    [TIMESTAMP] => 2019-04-08T04:01:04Z
+    [CORRELATIONID] => 9803b18a4e181
+    [ACK] => Failure
+    [VERSION] => 120.0
+    [BUILD] => 46457558
+    [L_ERRORCODE0] => 10002
+    [L_SHORTMESSAGE0] => Authentication/Authorization Failed
+    [L_LONGMESSAGE0] => You do not have permissions to make this API call
+    [L_SEVERITYCODE0] => Error
+)
+
+04-08-2019 @ 19:03:16 - WC_Gateway_PPEC_Client::_request: remote request to https://api-3t.sandbox.paypal.com/nvp with params: Array
+(
+    [METHOD] => GetPalDetails
+    [VERSION] => 120.0
+    [USER] => 
+    [PWD] => 
+    [SIGNATURE] => 
+)
+
+04-08-2019 @ 19:03:17 - WC_Gateway_PPEC_Client::_process_response: acknowleged response body: Array
+(
+    [TIMESTAMP] => 2019-04-08T04:01:13Z
+    [CORRELATIONID] => cbefe90396ec
+    [ACK] => Failure
+    [VERSION] => 120.0
+    [BUILD] => 46457558
+    [L_ERRORCODE0] => 10002
+    [L_SHORTMESSAGE0] => Authentication/Authorization Failed
+    [L_LONGMESSAGE0] => You do not have permissions to make this API call
+    [L_SEVERITYCODE0] => Error
+)
+
+04-08-2019 @ 19:03:17 - WC_Gateway_PPEC_Client::_request: remote request to https://api-3t.sandbox.paypal.com/nvp with params: Array
+(
+    [LOGOIMG] => 
+    [HDRIMG] => 
+    [PAGESTYLE] => 
+    [BRANDNAME] => internphp
+    [RETURNURL] => http://localhost/intern_task4/checkout/?woo-paypal-return=true
+    [CANCELURL] => http://localhost/intern_task4/cart/?woo-paypal-cancel=true
+    [LANDINGPAGE] => Login
+    [SOLUTIONTYPE] => Sole
+    [PAYMENTREQUEST_0_PAYMENTACTION] => sale
+    [PAYMENTREQUEST_0_INSURANCEAMT] => 0
+    [PAYMENTREQUEST_0_HANDLINGAMT] => 0
+    [PAYMENTREQUEST_0_CUSTOM] => 
+    [PAYMENTREQUEST_0_INVNUM] => 
+    [PAYMENTREQUEST_0_CURRENCYCODE] => USD
+    [PAYMENTREQUEST_0_AMT] => 1600
+    [PAYMENTREQUEST_0_ITEMAMT] => 1600
+    [PAYMENTREQUEST_0_SHIPPINGAMT] => 0
+    [PAYMENTREQUEST_0_TAXAMT] => 0
+    [PAYMENTREQUEST_0_SHIPDISCAMT] => 0
+    [NOSHIPPING] => 0
+    [EMAIL] => nam.sandbox@gmail.com
+    [PAYMENTREQUEST_0_SHIPTONAME] => doan vo
+    [PAYMENTREQUEST_0_SHIPTOSTREET] => 45 Đinh Công Tráng , Thuận Phước ,Hải Châu, Đà Nẵng
+    [PAYMENTREQUEST_0_SHIPTOSTREET2] => 
+    [PAYMENTREQUEST_0_SHIPTOCITY] => intern
+    [PAYMENTREQUEST_0_SHIPTOSTATE] => 
+    [PAYMENTREQUEST_0_SHIPTOZIP] => 550000
+    [PAYMENTREQUEST_0_SHIPTOCOUNTRYCODE] => VN
+    [PAYMENTREQUEST_0_SHIPTOPHONENUM] => 0976751312
+    [L_PAYMENTREQUEST_0_NAME0] => desktop 2
+    [L_PAYMENTREQUEST_0_DESC0] => sản phẩm tốt cho mọi công việc
+    [L_PAYMENTREQUEST_0_QTY0] => 1
+    [L_PAYMENTREQUEST_0_AMT0] => 800
+    [L_PAYMENTREQUEST_0_NAME1] => desktop 1
+    [L_PAYMENTREQUEST_0_DESC1] => sản phẩm tốt cho mọi công việc
+    [L_PAYMENTREQUEST_0_QTY1] => 1
+    [L_PAYMENTREQUEST_0_AMT1] => 800
+    [METHOD] => SetExpressCheckout
+    [VERSION] => 120.0
+    [USER] => 
+    [PWD] => 
+    [SIGNATURE] => 
+)
+
+04-08-2019 @ 19:03:18 - WC_Gateway_PPEC_Client::_process_response: acknowleged response body: Array
+(
+    [TIMESTAMP] => 2019-04-08T04:01:14Z
+    [CORRELATIONID] => b50dda06a0038
+    [ACK] => Failure
+    [VERSION] => 120.0
+    [BUILD] => 52346509
+    [L_ERRORCODE0] => 10002
+    [L_SHORTMESSAGE0] => Authentication/Authorization Failed
+    [L_LONGMESSAGE0] => You do not have permissions to make this API call
+    [L_SEVERITYCODE0] => Error
+)
+
+04-08-2019 @ 19:03:18 - WC_Gateway_PPEC_Client::_request: remote request to https://api-3t.sandbox.paypal.com/nvp with params: Array
+(
+    [METHOD] => GetPalDetails
+    [VERSION] => 120.0
+    [USER] => 
+    [PWD] => 
+    [SIGNATURE] => 
+)
+
+04-08-2019 @ 19:03:19 - WC_Gateway_PPEC_Client::_process_response: acknowleged response body: Array
+(
+    [TIMESTAMP] => 2019-04-08T04:01:15Z
+    [CORRELATIONID] => ab30ae3fafcf6
+    [ACK] => Failure
+    [VERSION] => 120.0
+    [BUILD] => 46457558
+    [L_ERRORCODE0] => 10002
+    [L_SHORTMESSAGE0] => Authentication/Authorization Failed
+    [L_LONGMESSAGE0] => You do not have permissions to make this API call
+    [L_SEVERITYCODE0] => Error
+)
+
+04-08-2019 @ 19:03:20 - WC_Gateway_PPEC_Client::_request: remote request to https://api-3t.sandbox.paypal.com/nvp with params: Array
+(
+    [METHOD] => GetPalDetails
+    [VERSION] => 120.0
+    [USER] => 
+    [PWD] => 
+    [SIGNATURE] => 
+)
+
+04-08-2019 @ 19:03:21 - WC_Gateway_PPEC_Client::_process_response: acknowleged response body: Array
+(
+    [TIMESTAMP] => 2019-04-08T04:01:17Z
+    [CORRELATIONID] => da4f0cac5c94b
+    [ACK] => Failure
+    [VERSION] => 120.0
+    [BUILD] => 46457558
+    [L_ERRORCODE0] => 10002
+    [L_SHORTMESSAGE0] => Authentication/Authorization Failed
+    [L_LONGMESSAGE0] => You do not have permissions to make this API call
+    [L_SEVERITYCODE0] => Error
+)
+
+04-08-2019 @ 19:03:32 - WC_Gateway_PPEC_Client::_request: remote request to https://api-3t.sandbox.paypal.com/nvp with params: Array
+(
+    [METHOD] => GetPalDetails
+    [VERSION] => 120.0
+    [USER] => 
+    [PWD] => 
+    [SIGNATURE] => 
+)
+
+04-08-2019 @ 19:03:33 - WC_Gateway_PPEC_Client::_process_response: acknowleged response body: Array
+(
+    [TIMESTAMP] => 2019-04-08T04:01:29Z
+    [CORRELATIONID] => 550581963b714
+    [ACK] => Failure
+    [VERSION] => 120.0
+    [BUILD] => 46457558
+    [L_ERRORCODE0] => 10002
+    [L_SHORTMESSAGE0] => Authentication/Authorization Failed
+    [L_LONGMESSAGE0] => You do not have permissions to make this API call
+    [L_SEVERITYCODE0] => Error
+)
+
+04-08-2019 @ 19:03:33 - WC_Gateway_PPEC_Client::_request: remote request to https://api-3t.sandbox.paypal.com/nvp with params: Array
+(
+    [LOGOIMG] => 
+    [HDRIMG] => 
+    [PAGESTYLE] => 
+    [BRANDNAME] => internphp
+    [RETURNURL] => http://localhost/intern_task4/checkout/?woo-paypal-return=true
+    [CANCELURL] => http://localhost/intern_task4/cart/?woo-paypal-cancel=true
+    [LANDINGPAGE] => Login
+    [SOLUTIONTYPE] => Sole
+    [PAYMENTREQUEST_0_PAYMENTACTION] => sale
+    [PAYMENTREQUEST_0_INSURANCEAMT] => 0
+    [PAYMENTREQUEST_0_HANDLINGAMT] => 0
+    [PAYMENTREQUEST_0_CUSTOM] => 
+    [PAYMENTREQUEST_0_INVNUM] => 
+    [PAYMENTREQUEST_0_CURRENCYCODE] => USD
+    [PAYMENTREQUEST_0_AMT] => 1600
+    [PAYMENTREQUEST_0_ITEMAMT] => 1600
+    [PAYMENTREQUEST_0_SHIPPINGAMT] => 0
+    [PAYMENTREQUEST_0_TAXAMT] => 0
+    [PAYMENTREQUEST_0_SHIPDISCAMT] => 0
+    [NOSHIPPING] => 0
+    [EMAIL] => nam.sandbox@gmail.com
+    [PAYMENTREQUEST_0_SHIPTONAME] => doan vo
+    [PAYMENTREQUEST_0_SHIPTOSTREET] => 45 Đinh Công Tráng , Thuận Phước ,Hải Châu, Đà Nẵng
+    [PAYMENTREQUEST_0_SHIPTOSTREET2] => 
+    [PAYMENTREQUEST_0_SHIPTOCITY] => intern
+    [PAYMENTREQUEST_0_SHIPTOSTATE] => 
+    [PAYMENTREQUEST_0_SHIPTOZIP] => 550000
+    [PAYMENTREQUEST_0_SHIPTOCOUNTRYCODE] => VN
+    [PAYMENTREQUEST_0_SHIPTOPHONENUM] => 0976751312
+    [L_PAYMENTREQUEST_0_NAME0] => desktop 2
+    [L_PAYMENTREQUEST_0_DESC0] => sản phẩm tốt cho mọi công việc
+    [L_PAYMENTREQUEST_0_QTY0] => 1
+    [L_PAYMENTREQUEST_0_AMT0] => 800
+    [L_PAYMENTREQUEST_0_NAME1] => desktop 1
+    [L_PAYMENTREQUEST_0_DESC1] => sản phẩm tốt cho mọi công việc
+    [L_PAYMENTREQUEST_0_QTY1] => 1
+    [L_PAYMENTREQUEST_0_AMT1] => 800
+    [METHOD] => SetExpressCheckout
+    [VERSION] => 120.0
+    [USER] => 
+    [PWD] => 
+    [SIGNATURE] => 
+)
+
+04-08-2019 @ 19:03:34 - WC_Gateway_PPEC_Client::_process_response: acknowleged response body: Array
+(
+    [TIMESTAMP] => 2019-04-08T04:01:30Z
+    [CORRELATIONID] => 758eb399ccd9f
+    [ACK] => Failure
+    [VERSION] => 120.0
+    [BUILD] => 52346509
+    [L_ERRORCODE0] => 10002
+    [L_SHORTMESSAGE0] => Authentication/Authorization Failed
+    [L_LONGMESSAGE0] => You do not have permissions to make this API call
+    [L_SEVERITYCODE0] => Error
+)
+
+04-08-2019 @ 19:03:34 - WC_Gateway_PPEC_Client::_request: remote request to https://api-3t.sandbox.paypal.com/nvp with params: Array
+(
+    [METHOD] => GetPalDetails
+    [VERSION] => 120.0
+    [USER] => 
+    [PWD] => 
+    [SIGNATURE] => 
+)
+
+04-08-2019 @ 19:03:36 - WC_Gateway_PPEC_Client::_process_response: acknowleged response body: Array
+(
+    [TIMESTAMP] => 2019-04-08T04:01:32Z
+    [CORRELATIONID] => ff4faf434fdf
+    [ACK] => Failure
+    [VERSION] => 120.0
+    [BUILD] => 46457558
+    [L_ERRORCODE0] => 10002
+    [L_SHORTMESSAGE0] => Authentication/Authorization Failed
+    [L_LONGMESSAGE0] => You do not have permissions to make this API call
+    [L_SEVERITYCODE0] => Error
+)
+
+04-08-2019 @ 19:03:36 - WC_Gateway_PPEC_Client::_request: remote request to https://api-3t.sandbox.paypal.com/nvp with params: Array
+(
+    [METHOD] => GetPalDetails
+    [VERSION] => 120.0
+    [USER] => 
+    [PWD] => 
+    [SIGNATURE] => 
+)
+
+04-08-2019 @ 19:03:37 - WC_Gateway_PPEC_Client::_process_response: acknowleged response body: Array
+(
+    [TIMESTAMP] => 2019-04-08T04:01:33Z
+    [CORRELATIONID] => fd1c8a89cc3c7
+    [ACK] => Failure
+    [VERSION] => 120.0
+    [BUILD] => 46457558
+    [L_ERRORCODE0] => 10002
+    [L_SHORTMESSAGE0] => Authentication/Authorization Failed
+    [L_LONGMESSAGE0] => You do not have permissions to make this API call
+    [L_SEVERITYCODE0] => Error
+)
+
+04-08-2019 @ 19:04:20 - WC_Gateway_PPEC_Client::_request: remote request to https://api-3t.sandbox.paypal.com/nvp with params: Array
+(
+    [METHOD] => GetPalDetails
+    [VERSION] => 120.0
+    [USER] => 
+    [PWD] => 
+    [SIGNATURE] => 
+)
+
+04-08-2019 @ 19:04:21 - WC_Gateway_PPEC_Client::_process_response: acknowleged response body: Array
+(
+    [TIMESTAMP] => 2019-04-08T04:02:18Z
+    [CORRELATIONID] => 4c6dada5e613e
+    [ACK] => Failure
+    [VERSION] => 120.0
+    [BUILD] => 46457558
+    [L_ERRORCODE0] => 10002
+    [L_SHORTMESSAGE0] => Authentication/Authorization Failed
+    [L_LONGMESSAGE0] => You do not have permissions to make this API call
+    [L_SEVERITYCODE0] => Error
+)
+
+04-08-2019 @ 19:13:48 - WC_Gateway_PPEC_Client::_request: remote request to https://api-3t.sandbox.paypal.com/nvp with params: Array
+(
+    [METHOD] => GetPalDetails
+    [VERSION] => 120.0
+    [USER] => 
+    [PWD] => 
+    [SIGNATURE] => 
+)
+
+04-08-2019 @ 19:13:49 - WC_Gateway_PPEC_Client::_process_response: acknowleged response body: Array
+(
+    [TIMESTAMP] => 2019-04-08T04:11:45Z
+    [CORRELATIONID] => a7cdadd3641fc
+    [ACK] => Failure
+    [VERSION] => 120.0
+    [BUILD] => 46457558
+    [L_ERRORCODE0] => 10002
+    [L_SHORTMESSAGE0] => Authentication/Authorization Failed
+    [L_LONGMESSAGE0] => You do not have permissions to make this API call
+    [L_SEVERITYCODE0] => Error
+)
+
+04-08-2019 @ 19:13:53 - WC_Gateway_PPEC_Client::_request: remote request to https://api-3t.sandbox.paypal.com/nvp with params: Array
+(
+    [METHOD] => GetPalDetails
+    [VERSION] => 120.0
+    [USER] => 
+    [PWD] => 
+    [SIGNATURE] => 
+)
+
+04-08-2019 @ 19:13:54 - WC_Gateway_PPEC_Client::_process_response: acknowleged response body: Array
+(
+    [TIMESTAMP] => 2019-04-08T04:11:50Z
+    [CORRELATIONID] => c020e901c1529
+    [ACK] => Failure
+    [VERSION] => 120.0
+    [BUILD] => 46457558
+    [L_ERRORCODE0] => 10002
+    [L_SHORTMESSAGE0] => Authentication/Authorization Failed
+    [L_LONGMESSAGE0] => You do not have permissions to make this API call
+    [L_SEVERITYCODE0] => Error
+)
+
+04-08-2019 @ 19:13:57 - WC_Gateway_PPEC_Client::_request: remote request to https://api-3t.sandbox.paypal.com/nvp with params: Array
+(
+    [METHOD] => GetPalDetails
+    [VERSION] => 120.0
+    [USER] => 
+    [PWD] => 
+    [SIGNATURE] => 
+)
+
+04-08-2019 @ 19:13:58 - WC_Gateway_PPEC_Client::_process_response: acknowleged response body: Array
+(
+    [TIMESTAMP] => 2019-04-08T04:11:54Z
+    [CORRELATIONID] => 36a20c13b9d29
+    [ACK] => Failure
+    [VERSION] => 120.0
+    [BUILD] => 46457558
+    [L_ERRORCODE0] => 10002
+    [L_SHORTMESSAGE0] => Authentication/Authorization Failed
+    [L_LONGMESSAGE0] => You do not have permissions to make this API call
+    [L_SEVERITYCODE0] => Error
+)
+
+04-08-2019 @ 19:14:04 - WC_Gateway_PPEC_Client::_request: remote request to https://api-3t.sandbox.paypal.com/nvp with params: Array
+(
+    [METHOD] => GetPalDetails
+    [VERSION] => 120.0
+    [USER] => 
+    [PWD] => 
+    [SIGNATURE] => 
+)
+
+04-08-2019 @ 19:14:05 - WC_Gateway_PPEC_Client::_process_response: acknowleged response body: Array
+(
+    [TIMESTAMP] => 2019-04-08T04:12:01Z
+    [CORRELATIONID] => 76d62f9b44881
+    [ACK] => Failure
+    [VERSION] => 120.0
+    [BUILD] => 46457558
+    [L_ERRORCODE0] => 10002
+    [L_SHORTMESSAGE0] => Authentication/Authorization Failed
+    [L_LONGMESSAGE0] => You do not have permissions to make this API call
+    [L_SEVERITYCODE0] => Error
+)
+
+04-08-2019 @ 19:17:33 - WC_Gateway_PPEC_Client::_request: remote request to https://api-3t.sandbox.paypal.com/nvp with params: Array
+(
+    [METHOD] => GetPalDetails
+    [VERSION] => 120.0
+    [USER] => 
+    [PWD] => 
+    [SIGNATURE] => 
+)
+
+04-08-2019 @ 19:17:34 - WC_Gateway_PPEC_Client::_process_response: acknowleged response body: Array
+(
+    [TIMESTAMP] => 2019-04-08T04:15:30Z
+    [CORRELATIONID] => 8c4dc1cbe0d5
+    [ACK] => Failure
+    [VERSION] => 120.0
+    [BUILD] => 46457558
+    [L_ERRORCODE0] => 10002
+    [L_SHORTMESSAGE0] => Authentication/Authorization Failed
+    [L_LONGMESSAGE0] => You do not have permissions to make this API call
+    [L_SEVERITYCODE0] => Error
+)
+
+04-08-2019 @ 19:21:28 - WC_Gateway_PPEC_Client::_request: remote request to https://api-3t.sandbox.paypal.com/nvp with params: Array
+(
+    [METHOD] => GetPalDetails
+    [VERSION] => 120.0
+    [USER] => 
+    [PWD] => 
+    [SIGNATURE] => 
+)
+
+04-08-2019 @ 19:21:29 - WC_Gateway_PPEC_Client::_process_response: acknowleged response body: Array
+(
+    [TIMESTAMP] => 2019-04-08T04:19:25Z
+    [CORRELATIONID] => a400ae28cb880
+    [ACK] => Failure
+    [VERSION] => 120.0
+    [BUILD] => 46457558
+    [L_ERRORCODE0] => 10002
+    [L_SHORTMESSAGE0] => Authentication/Authorization Failed
+    [L_LONGMESSAGE0] => You do not have permissions to make this API call
+    [L_SEVERITYCODE0] => Error
+)
+
+04-08-2019 @ 19:21:37 - WC_Gateway_PPEC_Client::_request: remote request to https://api-3t.sandbox.paypal.com/nvp with params: Array
+(
+    [METHOD] => GetPalDetails
+    [VERSION] => 120.0
+    [USER] => 
+    [PWD] => 
+    [SIGNATURE] => 
+)
+
+04-08-2019 @ 19:21:38 - WC_Gateway_PPEC_Client::_process_response: acknowleged response body: Array
+(
+    [TIMESTAMP] => 2019-04-08T04:19:35Z
+    [CORRELATIONID] => a9f35fa2756a
+    [ACK] => Failure
+    [VERSION] => 120.0
+    [BUILD] => 46457558
+    [L_ERRORCODE0] => 10002
+    [L_SHORTMESSAGE0] => Authentication/Authorization Failed
+    [L_LONGMESSAGE0] => You do not have permissions to make this API call
+    [L_SEVERITYCODE0] => Error
+)
+
+04-08-2019 @ 19:24:52 - WC_Gateway_PPEC_Client::_request: remote request to https://api-3t.sandbox.paypal.com/nvp with params: Array
+(
+    [METHOD] => GetPalDetails
+    [VERSION] => 120.0
+    [USER] => 
+    [PWD] => 
+    [SIGNATURE] => 
+)
+
+04-08-2019 @ 19:24:54 - WC_Gateway_PPEC_Client::_process_response: acknowleged response body: Array
+(
+    [TIMESTAMP] => 2019-04-08T04:22:50Z
+    [CORRELATIONID] => 9e6f68ed52805
+    [ACK] => Failure
+    [VERSION] => 120.0
+    [BUILD] => 46457558
+    [L_ERRORCODE0] => 10002
+    [L_SHORTMESSAGE0] => Authentication/Authorization Failed
+    [L_LONGMESSAGE0] => You do not have permissions to make this API call
+    [L_SEVERITYCODE0] => Error
+)
+
+04-08-2019 @ 19:31:33 - WC_Gateway_PPEC_Client::_request: remote request to https://api-3t.sandbox.paypal.com/nvp with params: Array
+(
+    [METHOD] => GetPalDetails
+    [VERSION] => 120.0
+    [USER] => 
+    [PWD] => 
+    [SIGNATURE] => 
+)
+
+04-08-2019 @ 19:31:34 - WC_Gateway_PPEC_Client::_process_response: acknowleged response body: Array
+(
+    [TIMESTAMP] => 2019-04-08T04:29:30Z
+    [CORRELATIONID] => e887f92dc70fe
+    [ACK] => Failure
+    [VERSION] => 120.0
+    [BUILD] => 46457558
+    [L_ERRORCODE0] => 10002
+    [L_SHORTMESSAGE0] => Authentication/Authorization Failed
+    [L_LONGMESSAGE0] => You do not have permissions to make this API call
+    [L_SEVERITYCODE0] => Error
+)
+
+04-08-2019 @ 19:32:18 - WC_Gateway_PPEC_Client::_request: remote request to https://api-3t.sandbox.paypal.com/nvp with params: Array
+(
+    [METHOD] => GetPalDetails
+    [VERSION] => 120.0
+    [USER] => 
+    [PWD] => 
+    [SIGNATURE] => 
+)
+
+04-08-2019 @ 19:32:20 - WC_Gateway_PPEC_Client::_process_response: acknowleged response body: Array
+(
+    [TIMESTAMP] => 2019-04-08T04:30:16Z
+    [CORRELATIONID] => bceb0abe302fb
+    [ACK] => Failure
+    [VERSION] => 120.0
+    [BUILD] => 46457558
+    [L_ERRORCODE0] => 10002
+    [L_SHORTMESSAGE0] => Authentication/Authorization Failed
+    [L_LONGMESSAGE0] => You do not have permissions to make this API call
+    [L_SEVERITYCODE0] => Error
+)
+
+04-08-2019 @ 19:32:35 - WC_Gateway_PPEC_Client::_request: remote request to https://api-3t.sandbox.paypal.com/nvp with params: Array
+(
+    [LOGOIMG] => 
+    [HDRIMG] => 
+    [PAGESTYLE] => 
+    [BRANDNAME] => internphp
+    [RETURNURL] => http://localhost/intern_task4/checkout/?woo-paypal-return=true
+    [CANCELURL] => http://localhost/intern_task4/cart/?woo-paypal-cancel=true
+    [ADDROVERRIDE] => 1
+    [LANDINGPAGE] => Login
+    [SOLUTIONTYPE] => Sole
+    [PAYMENTREQUEST_0_PAYMENTACTION] => sale
+    [PAYMENTREQUEST_0_INSURANCEAMT] => 0
+    [PAYMENTREQUEST_0_HANDLINGAMT] => 0
+    [PAYMENTREQUEST_0_CUSTOM] => 
+    [PAYMENTREQUEST_0_INVNUM] => 
+    [PAYMENTREQUEST_0_CURRENCYCODE] => USD
+    [PAYMENTREQUEST_0_AMT] => 1600
+    [PAYMENTREQUEST_0_ITEMAMT] => 1600
+    [PAYMENTREQUEST_0_SHIPPINGAMT] => 0
+    [PAYMENTREQUEST_0_TAXAMT] => 0
+    [PAYMENTREQUEST_0_SHIPDISCAMT] => 0
+    [NOSHIPPING] => 0
+    [EMAIL] => doan.vo@gmail.com
+    [PAYMENTREQUEST_0_SHIPTONAME] => doan vo
+    [PAYMENTREQUEST_0_SHIPTOSTREET] => thanh thủy, lệ thủy, quảng bình
+    [PAYMENTREQUEST_0_SHIPTOSTREET2] => 
+    [PAYMENTREQUEST_0_SHIPTOCITY] => intern
+    [PAYMENTREQUEST_0_SHIPTOSTATE] => 
+    [PAYMENTREQUEST_0_SHIPTOZIP] => 550000
+    [PAYMENTREQUEST_0_SHIPTOCOUNTRYCODE] => VN
+    [PAYMENTREQUEST_0_SHIPTOPHONENUM] => 0965640197
+    [L_PAYMENTREQUEST_0_NAME0] => desktop 2
+    [L_PAYMENTREQUEST_0_DESC0] => 
+    [L_PAYMENTREQUEST_0_QTY0] => 2
+    [L_PAYMENTREQUEST_0_AMT0] => 800
+    [METHOD] => SetExpressCheckout
+    [VERSION] => 120.0
+    [USER] => 
+    [PWD] => 
+    [SIGNATURE] => 
+)
+
+04-08-2019 @ 19:32:37 - WC_Gateway_PPEC_Client::_process_response: acknowleged response body: Array
+(
+    [TIMESTAMP] => 2019-04-08T04:30:33Z
+    [CORRELATIONID] => e30a6e8e27f96
+    [ACK] => Failure
+    [VERSION] => 120.0
+    [BUILD] => 52346509
+    [L_ERRORCODE0] => 10002
+    [L_SHORTMESSAGE0] => Authentication/Authorization Failed
+    [L_LONGMESSAGE0] => You do not have permissions to make this API call
+    [L_SEVERITYCODE0] => Error
+)
+
+04-08-2019 @ 19:41:52 - WC_Gateway_PPEC_Client::_request: remote request to https://api-3t.sandbox.paypal.com/nvp with params: Array
+(
+    [METHOD] => GetPalDetails
+    [VERSION] => 120.0
+    [USER] => 
+    [PWD] => 
+    [SIGNATURE] => 
+)
+
+04-08-2019 @ 19:41:53 - WC_Gateway_PPEC_Client::_process_response: acknowleged response body: Array
+(
+    [TIMESTAMP] => 2019-04-08T04:39:49Z
+    [CORRELATIONID] => 746c60326c36a
+    [ACK] => Failure
+    [VERSION] => 120.0
+    [BUILD] => 46457558
+    [L_ERRORCODE0] => 10002
+    [L_SHORTMESSAGE0] => Authentication/Authorization Failed
+    [L_LONGMESSAGE0] => You do not have permissions to make this API call
+    [L_SEVERITYCODE0] => Error
+)
+
+04-08-2019 @ 19:54:55 - WC_Gateway_PPEC_Client::_request: remote request to https://api-3t.sandbox.paypal.com/nvp with params: Array
+(
+    [METHOD] => GetPalDetails
+    [VERSION] => 120.0
+    [USER] => 
+    [PWD] => 
+    [SIGNATURE] => 
+)
+
+04-08-2019 @ 19:54:57 - WC_Gateway_PPEC_Client::_process_response: acknowleged response body: Array
+(
+    [TIMESTAMP] => 2019-04-08T04:52:53Z
+    [CORRELATIONID] => b2b248f4327ca
+    [ACK] => Failure
+    [VERSION] => 120.0
+    [BUILD] => 46457558
+    [L_ERRORCODE0] => 10002
+    [L_SHORTMESSAGE0] => Authentication/Authorization Failed
+    [L_LONGMESSAGE0] => You do not have permissions to make this API call
+    [L_SEVERITYCODE0] => Error
+)
+
+04-08-2019 @ 19:55:01 - WC_Gateway_PPEC_Client::_request: remote request to https://api-3t.sandbox.paypal.com/nvp with params: Array
+(
+    [METHOD] => GetPalDetails
+    [VERSION] => 120.0
+    [USER] => 
+    [PWD] => 
+    [SIGNATURE] => 
+)
+
+04-08-2019 @ 19:55:02 - WC_Gateway_PPEC_Client::_process_response: acknowleged response body: Array
+(
+    [TIMESTAMP] => 2019-04-08T04:52:58Z
+    [CORRELATIONID] => b962c0fd7d870
+    [ACK] => Failure
+    [VERSION] => 120.0
+    [BUILD] => 46457558
+    [L_ERRORCODE0] => 10002
+    [L_SHORTMESSAGE0] => Authentication/Authorization Failed
+    [L_LONGMESSAGE0] => You do not have permissions to make this API call
+    [L_SEVERITYCODE0] => Error
+)
+
+04-08-2019 @ 19:55:37 - WC_Gateway_PPEC_Client::_request: remote request to https://api-3t.sandbox.paypal.com/nvp with params: Array
+(
+    [METHOD] => GetPalDetails
+    [VERSION] => 120.0
+    [USER] => 
+    [PWD] => 
+    [SIGNATURE] => 
+)
+
+04-08-2019 @ 19:55:38 - WC_Gateway_PPEC_Client::_process_response: acknowleged response body: Array
+(
+    [TIMESTAMP] => 2019-04-08T04:53:34Z
+    [CORRELATIONID] => da4b21384daef
+    [ACK] => Failure
+    [VERSION] => 120.0
+    [BUILD] => 46457558
+    [L_ERRORCODE0] => 10002
+    [L_SHORTMESSAGE0] => Authentication/Authorization Failed
+    [L_LONGMESSAGE0] => You do not have permissions to make this API call
+    [L_SEVERITYCODE0] => Error
+)
+
+04-08-2019 @ 19:56:41 - WC_Gateway_PPEC_Client::_request: remote request to https://api-3t.sandbox.paypal.com/nvp with params: Array
+(
+    [METHOD] => GetPalDetails
+    [VERSION] => 120.0
+    [USER] => v.t.doan1908_api1.gmail.com
+    [PWD] => 33B3HX9S6HM32QBL
+    [SIGNATURE] => AfDdcDwGFNNl9YX8sk3Oq5l8Xr6pAH7p3lQRH4T.RjFT5IB3At090fK1
+)
+
+04-08-2019 @ 19:56:43 - WC_Gateway_PPEC_Client::_process_response: acknowleged response body: Array
+(
+    [PAL] => 56DDKXWGY3WWC
+    [LOCALE] => en_US
+    [TIMESTAMP] => 2019-04-08T04:54:39Z
+    [CORRELATIONID] => 9a7669c62c0fc
+    [ACK] => Success
+    [VERSION] => 120.0
+    [BUILD] => 46457558
+)
+
+04-08-2019 @ 19:57:55 - WC_Gateway_PPEC_Client::_request: remote request to https://api-3t.sandbox.paypal.com/nvp with params: Array
+(
+    [METHOD] => GetPalDetails
+    [VERSION] => 120.0
+    [USER] => v.t.doan1908_api1.gmail.com
+    [PWD] => 33B3HX9S6HM32QBL
+    [SUBJECT] => DoanWoocommerce
+    [SIGNATURE] => AfDdcDwGFNNl9YX8sk3Oq5l8Xr6pAH7p3lQRH4T.RjFT5IB3At090fK1
+)
+
+04-08-2019 @ 19:57:56 - WC_Gateway_PPEC_Client::_process_response: acknowleged response body: Array
+(
+    [TIMESTAMP] => 2019-04-08T04:55:52Z
+    [CORRELATIONID] => 5dabe4703d099
+    [ACK] => Failure
+    [VERSION] => 120.0
+    [BUILD] => 46457558
+    [L_ERRORCODE0] => 10002
+    [L_SHORTMESSAGE0] => Authentication/Authorization Failed
+    [L_LONGMESSAGE0] => You do not have permissions to make this API call
+    [L_SEVERITYCODE0] => Error
+)
+
+04-08-2019 @ 20:01:59 - WC_Gateway_PPEC_IPS_Handler::maybe_received_credentials: returned back from IPS flow with parameters: Array
+(
+    [page] => wc-settings
+    [tab] => checkout
+    [section] => ppec_paypal
+    [env] => sandbox
+    [wc_ppec_ips_admin_nonce] => 2c63d7d830
+    [merchantId] => 21da2994550cf881383bbc133adedcca
+    [merchantPayerId] => KBXZCNAFV3UF8
+    [api_style] => signature
+    [api_username] => vothedoan_api1.gmail.com
+    [api_password] => JKVBQF2GM4TLGHPZ
+    [signature] => AlObED.2c.sLLAH84Jr8bZje3vwSAsgVUGbMDN1mEUKt2QFNyyaMdSl8
+)
+
+04-08-2019 @ 20:01:59 - WC_Gateway_PPEC_Client::_request: remote request to https://api-3t.sandbox.paypal.com/nvp with params: Array
+(
+    [METHOD] => GetPalDetails
+    [VERSION] => 120.0
+    [USER] => vothedoan_api1.gmail.com
+    [PWD] => JKVBQF2GM4TLGHPZ
+    [SIGNATURE] => AlObED.2c.sLLAH84Jr8bZje3vwSAsgVUGbMDN1mEUKt2QFNyyaMdSl8
+)
+
+04-08-2019 @ 20:02:00 - WC_Gateway_PPEC_Client::_process_response: acknowleged response body: Array
+(
+    [PAL] => KBXZCNAFV3UF8
+    [LOCALE] => en_US
+    [TIMESTAMP] => 2019-04-08T04:59:56Z
+    [CORRELATIONID] => 8fe2a05b6bb81
+    [ACK] => Success
+    [VERSION] => 120.0
+    [BUILD] => 46457558
+)
+
+04-08-2019 @ 20:02:00 - WC_Gateway_PPEC_IPS_Handler::maybe_received_credentials: returned back from IPS flow: Array
+(
+    [0] => Array
+        (
+            [success] => Success!  Your PayPal account has been set up successfully.
+        )
+
+)
+
+04-08-2019 @ 20:38:17 - WC_Gateway_PPEC_Client::_request: remote request to https://api-3t.sandbox.paypal.com/nvp with params: Array
+(
+    [METHOD] => GetPalDetails
+    [VERSION] => 120.0
+    [USER] => v.t.doan1908-facilitator_api1.gmail.com
+    [PWD] => 6R8AQPRA5KE7SMAD
+    [SIGNATURE] => AurpScYpYrWdPBaaGGawNC5ZhYDOAXabk62Qu.V-VyA6gprvcpYt7Wxy
+)
+
+04-08-2019 @ 20:38:19 - WC_Gateway_PPEC_Client::_process_response: acknowleged response body: Array
+(
+    [PAL] => J8VHDV9LPPJS8
+    [LOCALE] => en_US
+    [TIMESTAMP] => 2019-04-08T05:36:15Z
+    [CORRELATIONID] => e824af9955566
+    [ACK] => Success
+    [VERSION] => 120.0
+    [BUILD] => 46457558
+)
+
+04-08-2019 @ 20:43:15 - WC_Gateway_PPEC_IPS_Handler::maybe_received_credentials: returned back from IPS flow with parameters: Array
+(
+    [page] => wc-settings
+    [tab] => checkout
+    [section] => ppec_paypal
+    [env] => sandbox
+    [wc_ppec_ips_admin_nonce] => 2c63d7d830
+    [merchantId] => ea00350b94d3918d61e884ed8f988fc6
+    [merchantPayerId] => 7347NRSSWSJNC
+    [api_style] => signature
+    [api_username] => anhdoan_api1.gmail.com
+    [api_password] => DYT95KE2K9VKSCFQ
+    [signature] => AZuRXZRkuk7frhfirfxxTkj0BDJGA3q-St5DCwlDdTeBvWnt3zszB7y.
+)
+
+04-08-2019 @ 20:43:15 - WC_Gateway_PPEC_Client::_request: remote request to https://api-3t.sandbox.paypal.com/nvp with params: Array
+(
+    [METHOD] => GetPalDetails
+    [VERSION] => 120.0
+    [USER] => anhdoan_api1.gmail.com
+    [PWD] => DYT95KE2K9VKSCFQ
+    [SIGNATURE] => AZuRXZRkuk7frhfirfxxTkj0BDJGA3q-St5DCwlDdTeBvWnt3zszB7y.
+)
+
+04-08-2019 @ 20:43:16 - WC_Gateway_PPEC_Client::_process_response: acknowleged response body: Array
+(
+    [PAL] => 7347NRSSWSJNC
+    [LOCALE] => en_US
+    [TIMESTAMP] => 2019-04-08T05:41:12Z
+    [CORRELATIONID] => 10ddb727c4c11
+    [ACK] => Success
+    [VERSION] => 120.0
+    [BUILD] => 46457558
+)
+
+04-08-2019 @ 20:43:16 - WC_Gateway_PPEC_IPS_Handler::maybe_received_credentials: returned back from IPS flow: Array
+(
+    [0] => Array
+        (
+            [success] => Success!  Your PayPal account has been set up successfully.
+        )
+
+)
+
+04-08-2019 @ 20:47:38 - WC_Gateway_PPEC_Client::_request: remote request to https://api-3t.sandbox.paypal.com/nvp with params: Array
+(
+    [METHOD] => GetPalDetails
+    [VERSION] => 120.0
+    [USER] => v.t.doan1908-facilitator_api1.gmail.com
+    [PWD] => 6R8AQPRA5KE7SMAD
+    [SUBJECT] => DoanWoocommerce
+    [SIGNATURE] => AurpScYpYrWdPBaaGGawNC5ZhYDOAXabk62Qu.V-VyA6gprvcpYt7Wxy
+)
+
+04-08-2019 @ 20:47:39 - WC_Gateway_PPEC_Client::_process_response: acknowleged response body: Array
+(
+    [TIMESTAMP] => 2019-04-08T05:45:35Z
+    [CORRELATIONID] => 320b73729866f
+    [ACK] => Failure
+    [VERSION] => 120.0
+    [BUILD] => 46457558
+    [L_ERRORCODE0] => 10002
+    [L_SHORTMESSAGE0] => Authentication/Authorization Failed
+    [L_LONGMESSAGE0] => You do not have permissions to make this API call
+    [L_SEVERITYCODE0] => Error
+)
+
+04-08-2019 @ 20:51:34 - WC_Gateway_PPEC_Client::_request: remote request to https://api-3t.sandbox.paypal.com/nvp with params: Array
+(
+    [METHOD] => GetPalDetails
+    [VERSION] => 120.0
+    [USER] => v.t.doan1908_api1.gmail.com
+    [PWD] => 8QMKFFLF7PG7QW6F
+    [SIGNATURE] => Ae8aMqHOct-tcxmgtTpIpkbB79dAAlpVdeU-nM6ZwNxsBr3gmt3kkLYA
+)
+
+04-08-2019 @ 20:51:35 - WC_Gateway_PPEC_Client::_process_response: acknowleged response body: Array
+(
+    [TIMESTAMP] => 2019-04-08T05:49:31Z
+    [CORRELATIONID] => c854e3ce91d55
+    [ACK] => Failure
+    [VERSION] => 120.0
+    [BUILD] => 46457558
+    [L_ERRORCODE0] => 10002
+    [L_SHORTMESSAGE0] => Security error
+    [L_LONGMESSAGE0] => Security header is not valid
+    [L_SEVERITYCODE0] => Error
+)
+
+04-08-2019 @ 20:53:04 - WC_Gateway_PPEC_Client::_request: remote request to https://api-3t.sandbox.paypal.com/nvp with params: Array
+(
+    [METHOD] => GetPalDetails
+    [VERSION] => 120.0
+    [USER] => v.t.doan1908_api1.gmail.com
+    [PWD] => 8QMKFFLF7PG7QW6F
+    [SUBJECT] => DoanWoocommerce
+    [SIGNATURE] => Ae8aMqHOct-tcxmgtTpIpkbB79dAAlpVdeU-nM6ZwNxsBr3gmt3kkLYA
+)
+
+04-08-2019 @ 20:53:05 - WC_Gateway_PPEC_Client::_process_response: acknowleged response body: Array
+(
+    [TIMESTAMP] => 2019-04-08T05:51:02Z
+    [CORRELATIONID] => 992f0b9e3142e
+    [ACK] => Failure
+    [VERSION] => 120.0
+    [BUILD] => 46457558
+    [L_ERRORCODE0] => 10002
+    [L_SHORTMESSAGE0] => Security error
+    [L_LONGMESSAGE0] => Security header is not valid
+    [L_SEVERITYCODE0] => Error
+)
+
+04-08-2019 @ 20:54:02 - WC_Gateway_PPEC_Client::_request: remote request to https://api-3t.sandbox.paypal.com/nvp with params: Array
+(
+    [METHOD] => GetPalDetails
+    [VERSION] => 120.0
+    [USER] => v.t.doan1908-facilitator_api1.gmail.com
+    [PWD] => 6R8AQPRA5KE7SMAD
+    [SUBJECT] => DoanWoocommerce
+    [SIGNATURE] => AurpScYpYrWdPBaaGGawNC5ZhYDOAXabk62Qu.V-VyA6gprvcpYt7Wxy
+)
+
+04-08-2019 @ 20:54:03 - WC_Gateway_PPEC_Client::_process_response: acknowleged response body: Array
+(
+    [TIMESTAMP] => 2019-04-08T05:51:59Z
+    [CORRELATIONID] => 3fd3aec9f879
+    [ACK] => Failure
+    [VERSION] => 120.0
+    [BUILD] => 46457558
+    [L_ERRORCODE0] => 10002
+    [L_SHORTMESSAGE0] => Authentication/Authorization Failed
+    [L_LONGMESSAGE0] => You do not have permissions to make this API call
+    [L_SEVERITYCODE0] => Error
+)
+

@@ -1,0 +1,88 @@
+
+.wcs__modal__head
+{
+    margin-top: 20px;
+    display: flex;
+}
+#select__category
+{
+    width: 30%;
+  
+}
+#select__style__list
+{
+    width: 30%;
+}
+#multi__select__product
+{
+    width: 30%;
+}
+#select__style__sort
+{
+    width: 30%;
+}
+#btn__apply
+{
+    margin-top:10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+.wcs__modal__select
+{
+    margin-right: 20px;
+}
+#wcs__input{
+    width: 100%;
+    font-size: 20px;
+    height: 100%;
+    overflow: auto;
+}
+.wcs__modal__head
+{
+    margin-bottom: 30px;
+}
+.wcs__modal__content
+{
+    width: 100%;
+    margin-bottom: 30px;
+    height: 30%
+}
+.wcs__modal__footer
+{
+    width: 100%;
+    height: 20%
+}
+#btn__insert__shortcode
+{
+    background-color: cornflowerblue;
+    padding: 15px 10px;
+    height: auto;
+    width: auto;
+    overflow: hidden;
+    font-size: 20px;
+}
+.wcs__content__product
+{
+    width: 100%;
+}
+.wcs__content__product__table--th--id
+{
+    width: 10%;
+}
+.wcs__content__product__table--th--name
+{
+    width: 30%;
+}
+.wcs__content__product__table--th--image
+{
+    width: 50%;
+}
+.wcs__content__product__table--th--feature
+{
+    width: 10%;
+}
+.wcs__content__product__itemt--img
+{
+    width: 50%;
+    height: 100px;
+}

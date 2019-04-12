@@ -1,0 +1,152 @@
+2019-04-11T06:45:40+00:00 CRITICAL Uncaught Error: Call to a member function get_price() on bool in C:\xampp\htdocs\intern_task4\wp-content\plugins\WooCustomShortcode\woocustomshortcode.php:96
+Stack trace:
+#0 C:\xampp\htdocs\intern_task4\wp-includes\shortcodes.php(325): wcs_shortcode_func(Array, '', 'wcs_shortcode')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 C:\xampp\htdocs\intern_task4\wp-includes\shortcodes.php(199): preg_replace_callback('/\\[(\\[?)(wcs_sh...', 'do_shortcode_ta...', '[wcs_shortcode ...')
+#3 C:\xampp\htdocs\intern_task4\wp-includes\class-wp-hook.php(286): do_shortcode('[wcs_shortcode ...')
+#4 C:\xampp\htdocs\intern_task4\wp-includes\plugin.php(208): WP_Hook->apply_filters('[wcs_shortcode ...', Array)
+#5 C:\xampp\htdocs\intern_task4\wp-includes\post-template.php(247): apply_filters('the_content', '[wcs_shortcode ...')
+#6 C:\xampp\htdocs\intern_task4\wp-content\themes\storefront\inc\storefront-template-functions.php(335): the_content()
+#7 C:\xampp\htdocs\intern_task4\wp-includes\class-wp-hook.php(286): storefront_page_ in C:\xampp\htdocs\intern_task4\wp-content\plugins\WooCustomShortcode\woocustomshortcode.php on line 96
+
+2019-04-11T07:02:35+00:00 CRITICAL Uncaught Error: Call to undefined function var_dum() in C:\xampp\htdocs\intern_task4\wp-content\plugins\WooCustomShortcode\woocustomshortcode.php:153
+Stack trace:
+#0 C:\xampp\htdocs\intern_task4\wp-includes\class-wp-hook.php(286): add_button_media_edior('content')
+#1 C:\xampp\htdocs\intern_task4\wp-includes\class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\intern_task4\wp-includes\plugin.php(465): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\intern_task4\wp-includes\class-wp-editor.php(234): do_action('media_buttons', 'content')
+#4 C:\xampp\htdocs\intern_task4\wp-includes\general-template.php(3176): _WP_Editors::editor('[wcs_shortcode ...', 'content', Array)
+#5 C:\xampp\htdocs\intern_task4\wp-admin\edit-form-advanced.php(563): wp_editor('[wcs_shortcode ...', 'content', Array)
+#6 C:\xampp\htdocs\intern_task4\wp-admin\post.php(197): include('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown in C:\xampp\htdocs\intern_task4\wp-content\plugins\WooCustomShortcode\woocustomshortcode.php on line 153
+
+2019-04-11T07:02:39+00:00 CRITICAL Uncaught Error: Call to undefined function var_dum() in C:\xampp\htdocs\intern_task4\wp-content\plugins\WooCustomShortcode\woocustomshortcode.php:153
+Stack trace:
+#0 C:\xampp\htdocs\intern_task4\wp-includes\class-wp-hook.php(286): add_button_media_edior('content')
+#1 C:\xampp\htdocs\intern_task4\wp-includes\class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\intern_task4\wp-includes\plugin.php(465): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\intern_task4\wp-includes\class-wp-editor.php(234): do_action('media_buttons', 'content')
+#4 C:\xampp\htdocs\intern_task4\wp-includes\general-template.php(3176): _WP_Editors::editor('', 'content', Array)
+#5 C:\xampp\htdocs\intern_task4\wp-admin\edit-form-advanced.php(563): wp_editor('', 'content', Array)
+#6 C:\xampp\htdocs\intern_task4\wp-admin\post-new.php(75): include('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown in C:\xampp\htdocs\intern_task4\wp-content\plugins\WooCustomShortcode\woocustomshortcode.php on line 153
+
+2019-04-11T07:03:18+00:00 CRITICAL Uncaught Error: Call to undefined function var_dum() in C:\xampp\htdocs\intern_task4\wp-content\plugins\WooCustomShortcode\woocustomshortcode.php:153
+Stack trace:
+#0 C:\xampp\htdocs\intern_task4\wp-includes\class-wp-hook.php(286): add_button_media_edior('content')
+#1 C:\xampp\htdocs\intern_task4\wp-includes\class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\intern_task4\wp-includes\plugin.php(465): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\intern_task4\wp-includes\class-wp-editor.php(234): do_action('media_buttons', 'content')
+#4 C:\xampp\htdocs\intern_task4\wp-includes\general-template.php(3176): _WP_Editors::editor('', 'content', Array)
+#5 C:\xampp\htdocs\intern_task4\wp-admin\edit-form-advanced.php(563): wp_editor('', 'content', Array)
+#6 C:\xampp\htdocs\intern_task4\wp-admin\post-new.php(75): include('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown in C:\xampp\htdocs\intern_task4\wp-content\plugins\WooCustomShortcode\woocustomshortcode.php on line 153
+
+2019-04-11T07:03:25+00:00 CRITICAL Uncaught Error: Call to undefined function var_dum() in C:\xampp\htdocs\intern_task4\wp-content\plugins\WooCustomShortcode\woocustomshortcode.php:153
+Stack trace:
+#0 C:\xampp\htdocs\intern_task4\wp-includes\class-wp-hook.php(286): add_button_media_edior('content')
+#1 C:\xampp\htdocs\intern_task4\wp-includes\class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\intern_task4\wp-includes\plugin.php(465): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\intern_task4\wp-includes\class-wp-editor.php(234): do_action('media_buttons', 'content')
+#4 C:\xampp\htdocs\intern_task4\wp-includes\general-template.php(3176): _WP_Editors::editor('[wcs_shortcode ...', 'content', Array)
+#5 C:\xampp\htdocs\intern_task4\wp-admin\edit-form-advanced.php(563): wp_editor('[wcs_shortcode ...', 'content', Array)
+#6 C:\xampp\htdocs\intern_task4\wp-admin\post.php(197): include('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown in C:\xampp\htdocs\intern_task4\wp-content\plugins\WooCustomShortcode\woocustomshortcode.php on line 153
+
+2019-04-11T07:03:36+00:00 CRITICAL Uncaught Error: Call to undefined function var_dum() in C:\xampp\htdocs\intern_task4\wp-content\plugins\WooCustomShortcode\woocustomshortcode.php:153
+Stack trace:
+#0 C:\xampp\htdocs\intern_task4\wp-includes\class-wp-hook.php(286): add_button_media_edior('content')
+#1 C:\xampp\htdocs\intern_task4\wp-includes\class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\intern_task4\wp-includes\plugin.php(465): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\intern_task4\wp-includes\class-wp-editor.php(234): do_action('media_buttons', 'content')
+#4 C:\xampp\htdocs\intern_task4\wp-includes\general-template.php(3176): _WP_Editors::editor('[wcs_shortcode ...', 'content', Array)
+#5 C:\xampp\htdocs\intern_task4\wp-admin\edit-form-advanced.php(563): wp_editor('[wcs_shortcode ...', 'content', Array)
+#6 C:\xampp\htdocs\intern_task4\wp-admin\post.php(197): include('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown in C:\xampp\htdocs\intern_task4\wp-content\plugins\WooCustomShortcode\woocustomshortcode.php on line 153
+
+2019-04-11T07:03:42+00:00 CRITICAL Uncaught Error: Call to undefined function var_dum() in C:\xampp\htdocs\intern_task4\wp-content\plugins\WooCustomShortcode\woocustomshortcode.php:153
+Stack trace:
+#0 C:\xampp\htdocs\intern_task4\wp-includes\class-wp-hook.php(286): add_button_media_edior('content')
+#1 C:\xampp\htdocs\intern_task4\wp-includes\class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\intern_task4\wp-includes\plugin.php(465): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\intern_task4\wp-includes\class-wp-editor.php(234): do_action('media_buttons', 'content')
+#4 C:\xampp\htdocs\intern_task4\wp-includes\general-template.php(3176): _WP_Editors::editor('', 'content', Array)
+#5 C:\xampp\htdocs\intern_task4\wp-admin\edit-form-advanced.php(563): wp_editor('', 'content', Array)
+#6 C:\xampp\htdocs\intern_task4\wp-admin\post-new.php(75): include('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown in C:\xampp\htdocs\intern_task4\wp-content\plugins\WooCustomShortcode\woocustomshortcode.php on line 153
+
+2019-04-11T07:03:46+00:00 CRITICAL Uncaught Error: Call to undefined function var_dum() in C:\xampp\htdocs\intern_task4\wp-content\plugins\WooCustomShortcode\woocustomshortcode.php:153
+Stack trace:
+#0 C:\xampp\htdocs\intern_task4\wp-includes\class-wp-hook.php(286): add_button_media_edior('content')
+#1 C:\xampp\htdocs\intern_task4\wp-includes\class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\intern_task4\wp-includes\plugin.php(465): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\intern_task4\wp-includes\class-wp-editor.php(234): do_action('media_buttons', 'content')
+#4 C:\xampp\htdocs\intern_task4\wp-includes\general-template.php(3176): _WP_Editors::editor('[wcs_shortcode ...', 'content', Array)
+#5 C:\xampp\htdocs\intern_task4\wp-admin\edit-form-advanced.php(563): wp_editor('[wcs_shortcode ...', 'content', Array)
+#6 C:\xampp\htdocs\intern_task4\wp-admin\post.php(197): include('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown in C:\xampp\htdocs\intern_task4\wp-content\plugins\WooCustomShortcode\woocustomshortcode.php on line 153
+
+2019-04-11T16:17:38+00:00 CRITICAL Uncaught Error: Function name must be a string in C:\xampp\htdocs\intern_task4\wp-content\plugins\WooCustomShortcode\woocustomshortcode.php:47
+Stack trace:
+#0 C:\xampp\htdocs\intern_task4\wp-includes\shortcodes.php(325): wcs_shortcode_func(Array, '', 'wcs_shortcode')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 C:\xampp\htdocs\intern_task4\wp-includes\shortcodes.php(199): preg_replace_callback('/\\[(\\[?)(wcs_sh...', 'do_shortcode_ta...', '[wcs_shortcode ...')
+#3 C:\xampp\htdocs\intern_task4\wp-includes\class-wp-hook.php(286): do_shortcode('[wcs_shortcode ...')
+#4 C:\xampp\htdocs\intern_task4\wp-includes\plugin.php(208): WP_Hook->apply_filters('[wcs_shortcode ...', Array)
+#5 C:\xampp\htdocs\intern_task4\wp-includes\post-template.php(247): apply_filters('the_content', '[wcs_shortcode ...')
+#6 C:\xampp\htdocs\intern_task4\wp-content\themes\storefront\inc\storefront-template-functions.php(335): the_content()
+#7 C:\xampp\htdocs\intern_task4\wp-includes\class-wp-hook.php(286): storefront_page_content('')
+#8  in C:\xampp\htdocs\intern_task4\wp-content\plugins\WooCustomShortcode\woocustomshortcode.php on line 47
+
+2019-04-11T19:16:03+00:00 CRITICAL Uncaught Error: Call to undefined function       <table>
+                    <tr>
+                        <th class="wcs__content__product__table--th--id">ID Product</th>
+                        <th class="wcs__content__product__table--th--name">Name</th>
+                        <th class="wcs__content__product__table--th--image">Image</th>
+                        <th class="wcs__content__product__table--th--featuer">Feature</th>
+                    </tr>
+                                <tr>
+                        <td><p class="wcs__content__product__item--id">31</p></td>
+                        <td><p class="wcs__content__product__item--title">desktop 3</p></td>
+                        <td><img class="wcs__content__product__itemt--img" src="http://localhost/intern_task4/wp-content/uploads/2019/04/images-2.jpg" alt=""></td>
+                        <td>
+                                                         <input class="checkbox__wcs" type="checkbox" data-value="31" checked>
+                   in C:\xampp\htdocs\intern_task4\wp-content\plugins\WooCustomShortcode\woocustomshortcode.php on line 425
+
+2019-04-11T19:16:11+00:00 CRITICAL Uncaught Error: Call to undefined function       <table>
+                    <tr>
+                        <th class="wcs__content__product__table--th--id">ID Product</th>
+                        <th class="wcs__content__product__table--th--name">Name</th>
+                        <th class="wcs__content__product__table--th--image">Image</th>
+                        <th class="wcs__content__product__table--th--featuer">Feature</th>
+                    </tr>
+                                <tr>
+                        <td><p class="wcs__content__product__item--id">31</p></td>
+                        <td><p class="wcs__content__product__item--title">desktop 3</p></td>
+                        <td><img class="wcs__content__product__itemt--img" src="http://localhost/intern_task4/wp-content/uploads/2019/04/images-2.jpg" alt=""></td>
+                        <td>
+                                                         <input class="checkbox__wcs" type="checkbox" data-value="31" checked>
+                   in C:\xampp\htdocs\intern_task4\wp-content\plugins\WooCustomShortcode\woocustomshortcode.php on line 425
+
+2019-04-11T19:16:15+00:00 CRITICAL Uncaught Error: Call to undefined function       <table>
+                    <tr>
+                        <th class="wcs__content__product__table--th--id">ID Product</th>
+                        <th class="wcs__content__product__table--th--name">Name</th>
+                        <th class="wcs__content__product__table--th--image">Image</th>
+                        <th class="wcs__content__product__table--th--featuer">Feature</th>
+                    </tr>
+                                <tr>
+                        <td><p class="wcs__content__product__item--id">22</p></td>
+                        <td><p class="wcs__content__product__item--title">laptop 5</p></td>
+                        <td><img class="wcs__content__product__itemt--img" src="http://localhost/intern_task4/wp-content/uploads/2019/04/images.jpg" alt=""></td>
+                        <td>
+                                                            <input class="checkbox__wcs" type="checkbox" data-value="22">
+                           in C:\xampp\htdocs\intern_task4\wp-content\plugins\WooCustomShortcode\woocustomshortcode.php on line 425
+

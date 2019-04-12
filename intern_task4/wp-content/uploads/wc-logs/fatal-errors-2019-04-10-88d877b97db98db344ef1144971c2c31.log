@@ -1,0 +1,46 @@
+2019-04-10T22:03:56+00:00 CRITICAL Uncaught Error: Call to a member function get_price() on int in C:\xampp\htdocs\intern_task4\wp-content\plugins\WooCustomShortcode\woocustomshortcode.php:101
+Stack trace:
+#0 C:\xampp\htdocs\intern_task4\wp-includes\shortcodes.php(325): wcs_shortcode_func(Array, '', 'wcs_shortcode')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 C:\xampp\htdocs\intern_task4\wp-includes\shortcodes.php(199): preg_replace_callback('/\\[(\\[?)(wcs_sh...', 'do_shortcode_ta...', '[wcs_shortcode ...')
+#3 C:\xampp\htdocs\intern_task4\wp-includes\class-wp-hook.php(286): do_shortcode('[wcs_shortcode ...')
+#4 C:\xampp\htdocs\intern_task4\wp-includes\plugin.php(208): WP_Hook->apply_filters('[wcs_shortcode ...', Array)
+#5 C:\xampp\htdocs\intern_task4\wp-includes\post-template.php(247): apply_filters('the_content', '[wcs_shortcode ...')
+#6 C:\xampp\htdocs\intern_task4\wp-content\themes\storefront\inc\storefront-template-functions.php(335): the_content()
+#7 C:\xampp\htdocs\intern_task4\wp-includes\class-wp-hook.php(286): storefront_page_ in C:\xampp\htdocs\intern_task4\wp-content\plugins\WooCustomShortcode\woocustomshortcode.php on line 101
+
+2019-04-10T22:05:36+00:00 CRITICAL Uncaught Error: Call to a member function get_price() on bool in C:\xampp\htdocs\intern_task4\wp-content\plugins\WooCustomShortcode\woocustomshortcode.php:101
+Stack trace:
+#0 C:\xampp\htdocs\intern_task4\wp-includes\shortcodes.php(325): wcs_shortcode_func(Array, '', 'wcs_shortcode')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 C:\xampp\htdocs\intern_task4\wp-includes\shortcodes.php(199): preg_replace_callback('/\\[(\\[?)(wcs_sh...', 'do_shortcode_ta...', '[wcs_shortcode ...')
+#3 C:\xampp\htdocs\intern_task4\wp-includes\class-wp-hook.php(286): do_shortcode('[wcs_shortcode ...')
+#4 C:\xampp\htdocs\intern_task4\wp-includes\plugin.php(208): WP_Hook->apply_filters('[wcs_shortcode ...', Array)
+#5 C:\xampp\htdocs\intern_task4\wp-includes\post-template.php(247): apply_filters('the_content', '[wcs_shortcode ...')
+#6 C:\xampp\htdocs\intern_task4\wp-content\themes\storefront\inc\storefront-template-functions.php(335): the_content()
+#7 C:\xampp\htdocs\intern_task4\wp-includes\class-wp-hook.php(286): storefront_page in C:\xampp\htdocs\intern_task4\wp-content\plugins\WooCustomShortcode\woocustomshortcode.php on line 101
+
+2019-04-10T23:50:44+00:00 CRITICAL Uncaught Error: Call to undefined function get_template_derectory_uri() in C:\xampp\htdocs\intern_task4\wp-content\plugins\WooCustomShortcode\woocustomshortcode.php:212
+Stack trace:
+#0 C:\xampp\htdocs\intern_task4\wp-includes\class-wp-hook.php(286): wcs_client_add_slick('')
+#1 C:\xampp\htdocs\intern_task4\wp-includes\class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\intern_task4\wp-includes\plugin.php(465): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\intern_task4\wp-includes\script-loader.php(2463): do_action('wp_enqueue_scri...')
+#4 C:\xampp\htdocs\intern_task4\wp-includes\class-wp-hook.php(286): wp_enqueue_scripts('')
+#5 C:\xampp\htdocs\intern_task4\wp-includes\class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#6 C:\xampp\htdocs\intern_task4\wp-includes\plugin.php(465): WP_Hook->do_action(Array)
+#7 C:\xampp\htdocs\intern_task4\wp-includes\general-template.php(2668): do_action('wp_head')
+#8 C:\xampp\htdocs\intern_task4\wp-content\themes\storefront\header.php(18): wp_he in C:\xampp\htdocs\intern_task4\wp-content\plugins\WooCustomShortcode\woocustomshortcode.php on line 212
+
+2019-04-10T23:51:09+00:00 CRITICAL Uncaught Error: Call to undefined function get_template_derectory_uri() in C:\xampp\htdocs\intern_task4\wp-content\plugins\WooCustomShortcode\woocustomshortcode.php:212
+Stack trace:
+#0 C:\xampp\htdocs\intern_task4\wp-includes\class-wp-hook.php(286): wcs_client_add_slick('')
+#1 C:\xampp\htdocs\intern_task4\wp-includes\class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\intern_task4\wp-includes\plugin.php(465): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\intern_task4\wp-includes\script-loader.php(2463): do_action('wp_enqueue_scri...')
+#4 C:\xampp\htdocs\intern_task4\wp-includes\class-wp-hook.php(286): wp_enqueue_scripts('')
+#5 C:\xampp\htdocs\intern_task4\wp-includes\class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#6 C:\xampp\htdocs\intern_task4\wp-includes\plugin.php(465): WP_Hook->do_action(Array)
+#7 C:\xampp\htdocs\intern_task4\wp-includes\general-template.php(2668): do_action('wp_head')
+#8 C:\xampp\htdocs\intern_task4\wp-content\themes\storefront\header.php(18): wp_he in C:\xampp\htdocs\intern_task4\wp-content\plugins\WooCustomShortcode\woocustomshortcode.php on line 212
+
